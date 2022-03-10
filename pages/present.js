@@ -1,10 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.scss";
+import styles from "../styles/Present.module.scss";
 import Layout from "../components/Layout";
 import { Container, Row, Col } from "react-bootstrap";
 
-export default function Schedule() {
+export default function Present() {
   return (
     <Layout>
       <Head>
@@ -13,8 +13,7 @@ export default function Schedule() {
       </Head>
       <main className={`${styles["main"]}`}>
         <Container >
-          <h1>June 14-15, 2022</h1>
-          <h2>More TBD!</h2>
+          <h1>Work In Progress</h1>
           <Row>
             <Col>
               <p>
