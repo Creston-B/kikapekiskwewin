@@ -1,0 +1,15 @@
+$ra-blue: #1f4d74;
+$ra-red: #963b44;
+$ra-light: #e8e1e2;
+$ra-light-org1: #dcd0d2;
+$ra-accent: #a77f97;
+
+$bg-col: #f7eddc;
+
+@mixin main-background {
+  background-image: url("../public/noisy-texture-100x100d.png");
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: repeat;
+  background-color: $bg-col;
+}

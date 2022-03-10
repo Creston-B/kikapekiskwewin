@@ -1,0 +1,36 @@
+{
+  "defaultImage": "/sample-user.png",
+  "profiles": [
+    {
+      "name": "Dr. Josie Auger",
+      "role": "host",
+      "title": "Associate Professor of Indigenous Studies, Athabasca University",
+      "image": "/jauger-linkedin.jfif",
+      "linkedin": "https://www.linkedin.com/in/dr-josie-auger-5902b169/"
+    },
+    {
+      "name": "Dr. Nisha Nath",
+      "role": "host",
+      "title": "Assistant Professor of Equity Studies, Athabasca University",
+      "image": "/nnath-linkedin.jfif",
+      "linkedin": "https://www.linkedin.com/in/nisha-nath-phd-aa4b0a94/"
+    },
+    {
+      "name": "Dr. Carolyn Greene",
+      "role": "host",
+      "title": "Associate Professor of Criminal Justice, Athabasca University"
+    },
+    {
+      "name": "Myra Tait",
+      "role": "host",
+      "title": "Assistant Professor of Governence and Law & Management, Athabasca University",
+      "image": "/mtait-linkedin.jfif",
+      "linkedin": "https://www.linkedin.com/in/myra-j-tait-lawyer-592bbb53/"
+    },
+    {
+      "name": "Research Assistant",
+      "role": "host",
+      "title": "Position TBA"
+    }
+  ]
+}

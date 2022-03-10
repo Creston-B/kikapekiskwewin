@@ -1,13 +1,17 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "/styles/variables.scss";
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+  }
 
 main {
   min-height: 100%;
+  flex: 1 0;
 }
 
 a {
@@ -17,4 +21,82 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.banner {
+  background-color: $ra-red;
+}
+
+.footer {
+  @extend .banner;
+  padding: 2rem 0;
+  color: $ra-light;
+  font-size: small;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  @extend .banner;
+
+  .nav-item {
+    font-size: 1.5rem;
+  }
+}
+
+.navbar {
+  @extend .banner;
+  height: 150px;
+}
+
+.basic-navbar-nav {
+  @extend .banner;
+}
+
+.kikapekiskwewin-logo-text {
+  position: relative;
+  width: 500px;
+  height: 120px;
+}
+
+@media screen and (max-width: 1400px) {
+
+  .kikapekiskwewin-logo-text {
+    width: 400px;
+    height: 100px;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+
+  .navbar {
+    height: 100px;
+  }
+
+  .footer {
+    font-size: smaller;
+  }
+
+  .kikapekiskwewin-logo-text {
+    width: 280px;
+    height: 80px;
+  }
+
+}
+
+@media (prefers-color-scheme: dark) {
 }
