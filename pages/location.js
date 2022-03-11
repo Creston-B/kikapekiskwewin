@@ -3,10 +3,12 @@ import Image from "next/image";
 import styles from "../styles/Location.module.scss";
 import Layout from "../components/Layout";
 import { Container, Row, Col } from "react-bootstrap";
+import Covid19Alert from "../components/Covid19-Alert";
 
 export default function Location() {
   return (
     <Layout>
+      <Covid19Alert />
       <Head>
         <title>kikapekiskwewin - Location</title>
         <link rel="icon" href="/favicon.ico" />
@@ -44,6 +46,7 @@ export default function Location() {
               </p>
             </Col>
           </Row>
+          <Row></Row>
         </Container>
       </main>
     </Layout>

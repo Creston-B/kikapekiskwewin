@@ -1,0 +1,30 @@
+import { Alert, Button } from "react-bootstrap";
+import React, { Component } from "react";
+
+export default class Covid19Alert extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      show: true,
+    };
+  }
+
+  render() {
+    if (this.state.show) {
+      return (
+        <Alert
+          variant="danger"
+          onClose={() => {
+            this.setState({show:false});
+          }}
+          dismissible
+          className="c19-alert"
+        >
+          <Alert.Heading>Covid 19 Information</Alert.Heading>
+          <p>Covid 19 information TBD.</p>
+        </Alert>
+      );
+    }
+    return null;
+  }
+}
