@@ -1,10 +1,10 @@
 import Head from "next/head";
-import styles from "../styles/Present.module.scss";
+import styles from "../styles/Register.module.scss";
 import Layout from "../components/Layout";
 import { Container, Row, Col } from "react-bootstrap";
 import Script from "next/script";
 
-export default function Present() {
+export default function Register() {
   return (
     <Layout>
       <Head>
@@ -17,8 +17,8 @@ export default function Present() {
           window.EBWidgets.createWidget({
             // Required
             widgetType: "checkout",
-            eventId: "267704028957",
-            iframeContainerId: "eventbrite-widget-container-267704028957",
+            eventId: "277605514567",
+            iframeContainerId: "eventbrite-widget-container-277605514567",
             // Optional
             iframeContainerHeight: 425, // Widget height in pixels. Defaults to a minimum of 425px if not provided
           });
@@ -32,7 +32,7 @@ export default function Present() {
               <p>Check back here for more information coming soon!</p>
             </Col>
           </Row>
-          <div id="eventbrite-widget-container-267704028957" >
+          <div id="eventbrite-widget-container-277605514567" >
       </div>
         </Container>
       </main>

@@ -11,8 +11,8 @@ export default class UserCard extends Component {
         <Image
           src={image}
           alt={name}
-          width={400}
-          height={400}
+          width={300}
+          height={300}
           layout="responsive"
           className="card-image"
         />

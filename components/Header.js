@@ -24,7 +24,7 @@ class NavComponent extends Component {
                   <Row className="kikapekiskwewin-logo pt-3">
                     <Col className="kikapekiskwewin-logo-icon col-8 col-sm-3">
                       <Image
-                        src="/kikapekiskwewin-logo-2-icon.png"
+                        src="/kikapekiskwewin-logo-icon.png"
                         objectFit="contain"
                         layout="fill"
                         alt="kikapekiskwewin logo icon"
@@ -53,13 +53,13 @@ class NavComponent extends Component {
                   <strong>Location</strong>
                 </Nav.Link>
                 <Nav.Link className="nav-item" href="/people">
-                  <strong>Team &amp; Presenters</strong>
+                  <strong>Presenters</strong>
                 </Nav.Link>
                 <Nav.Link className="nav-item" href="/schedule">
                   <strong>Schedule</strong>
                 </Nav.Link>
-                <Nav.Link className="nav-item" href="/present">
-                  <strong>Present</strong>
+                <Nav.Link className="nav-item" href="/register">
+                  <strong>Register</strong>
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>

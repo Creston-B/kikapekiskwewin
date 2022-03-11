@@ -37,7 +37,7 @@ export default function Location() {
                 with the Queen&apos;s representatives. Although a treaty was
                 signed between sovereign nations, Indigenous people were
                 subjected to the colonial Indian Act and reserve system. There
-                are eight Metis settlements established in the last years of the
+                are eight Métis settlements established in the last years of the
                 Great Depression. Athabasca University is located within Treaty
                 6 territory in the town of Athabasca. The Athabasca River
                 separates Treaty 6 and Treaty 8 located to the north. There are
