@@ -11,6 +11,7 @@ export default function Home() {
       <Head>
         <title>kikapekiskwewin</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta keywords="kikapekiskwewin"></meta>
       </Head>
       <div className={`${styles["back-image"]}`}></div>
       <div className={`${styles["back-textbox"]}`}>

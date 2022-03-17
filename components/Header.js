@@ -58,6 +58,9 @@ class NavComponent extends Component {
                 <Nav.Link className="nav-item" href="/schedule">
                   <strong>Schedule</strong>
                 </Nav.Link>
+                {/* <Nav.Link className="nav-item" href="/people">
+                  <strong>Media</strong>
+                </Nav.Link> */}
                 <Nav.Link className="nav-item" href="/register">
                   <strong>Register</strong>
                 </Nav.Link>
