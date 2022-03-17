@@ -4,6 +4,8 @@ $ra-light: #e8e1e2;
 $ra-light-org1: #dcd0d2;
 $ra-accent: #a77f97;
 
+$ra-primary: $ra-red;
+$ra-secondary: $ra-blue;
 $bg-col: #f7eddc;
 
 @mixin main-background {
@@ -16,7 +18,7 @@ $bg-col: #f7eddc;
 
 @mixin textbox {
   background-color: rgba($bg-col, 0.8);
-  border: $ra-blue 4px solid;
+  border: $ra-secondary 4px solid;
   border-radius: 40px;
   padding: 0 20px 5px;
   background-clip: padding-box;
