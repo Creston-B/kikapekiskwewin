@@ -18,18 +18,6 @@ export default function Home() {
           Why are cultural values so important to Indigenous people involved in
           research with Indigenous people?
         </h4>
-        {/* <p className={`${styles["back-statement"]}`}>
-          In 1876 the Cree, Dene Suline, Saulteaux, and Nakota Sioux peoples
-          signed Treaty 6 to share the land to the depth of a plow with the
-          Queen’s representatives. Although a treaty was signed between
-          sovereign nations, Indigenous people were subjected to the colonial
-          Indian Act and reserve system. There are eight Métis settlements
-          established in the last years of the Great Depression. Athabasca
-          University is located within Treaty 6 territory in the town of
-          Athabasca. The Athabasca River separates Treaty 6 and Treaty 8 located
-          to the north. There are eleven numbered treaties across Canada signed
-          between 1871 and 1921.{" "}
-        </p> */}
       </div>
 
       <main className={`${styles["main"]}`}>

@@ -15,13 +15,13 @@ export default class HeaderComponent extends Component {
 class NavComponent extends Component {
   render() {
     return (
-      <Navbar variant="dark" expand="lg" className={`navbar pt-0`}>
+      <Navbar variant="dark" expand="lg" className={`navbar`}>
         <Container fluid className="banner">
           <Row className="flex-row w-100">
-            <Col className="col-10 col-lg-4">
+            <Col className="nav-col col-10 col-lg-4">
               <Navbar.Brand href="/" className="nav-brand">
                 <Container fluid className="flex-column flex-nowrap">
-                  <Row className="kikapekiskwewin-logo pt-3">
+                  <Row className="kikapekiskwewin-logo">
                     <Col className="kikapekiskwewin-logo-icon col-8 col-sm-3">
                       <Image
                         src="/kikapekiskwewin-logo-icon.png"
@@ -32,7 +32,7 @@ class NavComponent extends Component {
                     </Col>
                     <Col className="kikapekiskwewin-logo-text col-8">
                       <Image
-                        src="/kikapekiskwewin-logo-crop-stroke.png"
+                        src="/kikapekiskwewin-logo-crop-stroke-2.png"
                         objectFit="contain"
                         layout="fill"
                         alt="kikapekiskwewin logo"
@@ -46,8 +46,8 @@ class NavComponent extends Component {
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
             </Col>
           </Row>
-          <Row className="container-fluid">
-            <Navbar.Collapse id="basic-navbar-nav justify-content-end">
+          <Row className="container-fluid banner align-self-end p-0">
+            <Navbar.Collapse id="basic-navbar-nav" className="pb-3">
               <Nav justify className="ml-auto text-end">
                 <Nav.Link className="nav-item" href="/location">
                   <strong>Location</strong>

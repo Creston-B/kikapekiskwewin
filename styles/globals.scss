@@ -36,8 +36,8 @@ a {
 .footer {
   @extend .banner;
   padding: 2rem 0;
-  color: $ra-light;
-  font-size: small;
+  color: rgba($ra-light, 0.75);
+  font-size: 10px !important;
 
   a {
     color: inherit;
@@ -49,17 +49,22 @@ a {
   position: sticky;
   top: 0;
   width: 100%;
+  height:120px;
   z-index: 1000;
   @extend .banner;
 
   .nav-item {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
 
 .navbar {
   @extend .banner;
-  height: 150px;
+  height:120px;
+}
+
+.nav-brand, .nav-col {
+  height: 120px;
 }
 
 .basic-navbar-nav {
@@ -67,54 +72,43 @@ a {
 }
 
 .kikapekiskwewin-logo {
-  width: 750px;
+  padding-top: 10px;
+  width: 650px;
+  height: 120px;
 }
 
 .kikapekiskwewin-logo-text {
   position: relative;
-  width: 500px;
-  height: 120px;
+  padding: 0;
 }
 
 .kikapekiskwewin-logo-icon {
   position: relative;
-  width: 120px;
-  height: 140px;
+  padding: 0;
 }
 
 .c19-alert {
   position:absolute !important;
-  top: 150px;
+  top:0;
   right:0;
   left: 0;
+  z-index: 10000;
 }
 
-@media screen and (max-width: 1400px) {
+// @media screen and (max-width: 1400px) {
 
-  .kikapekiskwewin-logo {
-    width: 40vw;
-    height: 140px;
-  }
+// }
 
-}
-
-@media screen and (max-width: 1200px) {
-
-  .kikapekiskwewin-logo {
-    width: 43vw;
-  }
-
-}
+// @media screen and (max-width: 1200px) {
+// }
 
 @media screen and (max-width: 992px) {
 
   .kikapekiskwewin-logo {
-    width: 80vw;
+    width: 500px;
   }
 
 }
-
-
 
 @media screen and (max-width: 576px) {
 
@@ -127,8 +121,9 @@ a {
   }
 
   .kikapekiskwewin-logo {
-    width: 180px;
-    height:100px;
+    margin-top: 0;
+    padding-top: 0;
+    width: 120px;
   }
 
   .kikapekiskwewin-logo-text{

@@ -25,9 +25,7 @@ export default function Location() {
             className={`${styles["location-image"]}`}
           />
         </div>
-      </div>
-      <main className={`${styles["main"]}`}>
-        <Container className={`${styles["content"]}`}>
+        <Container className={`${styles["athabasca-blurb"]}`}>
           <h1 className={`mt-4 mb-4`}>Athabasca</h1>
           <Row>
             <Col>
@@ -48,6 +46,9 @@ export default function Location() {
           </Row>
           <Row></Row>
         </Container>
+      </div>
+
+      <main className={`${styles["main"]}`}>
       </main>
     </Layout>
   );

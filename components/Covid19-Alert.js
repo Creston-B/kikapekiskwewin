@@ -12,17 +12,19 @@ export default class Covid19Alert extends Component {
   render() {
     if (this.state.show) {
       return (
-        <Alert
-          variant="danger"
-          onClose={() => {
-            this.setState({show:false});
-          }}
-          dismissible
-          className="c19-alert"
-        >
-          <Alert.Heading>Covid 19 Information</Alert.Heading>
-          <p>Covid 19 information TBD.</p>
-        </Alert>
+        <div className="sticky-top">
+          <Alert
+            variant="danger"
+            onClose={() => {
+              this.setState({ show: false });
+            }}
+            dismissible
+            className="c19-alert"
+          >
+            <Alert.Heading>Covid 19 Information</Alert.Heading>
+            <p>Covid 19 information TBD.</p>
+          </Alert>
+        </div>
       );
     }
     return null;

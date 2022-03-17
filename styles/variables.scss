@@ -13,3 +13,11 @@ $bg-col: #f7eddc;
   background-repeat: repeat;
   background-color: $bg-col;
 }
+
+@mixin textbox {
+  background-color: rgba($bg-col, 0.8);
+  border: $ra-blue 4px solid;
+  border-radius: 40px;
+  padding: 0 20px 5px;
+  background-clip: padding-box;
+}
