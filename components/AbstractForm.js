@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Form, Button, Alert } from "react-bootstrap";
 import styles from "../styles/Home.module.scss";
-
 export default class AbstractForm extends Component {
   constructor(props) {
     super(props);
@@ -23,9 +22,19 @@ export default class AbstractForm extends Component {
       this.setState({ validated: true });
       event.preventDefault();
       try {
-        
-        
-      
+        const sendForm = async () => {
+          const res = await fetch("/api/formemail", {
+            method: "POST",
+            body: "message",
+          });
+          const status = await res.status;
+          if (status != 200) {
+            throw `Request failed: ${status}`;
+          }
+        };
+        sendForm().catch((err) => {
+          this.setState({ error: true, error_text: err });
+        });
       } catch (error) {
         this.setState({ error: true, error_text: error.message });
       }
@@ -65,16 +74,23 @@ export default class AbstractForm extends Component {
           <Form.Label>Self Identification</Form.Label>
           <Form.Control
             type="text"
-            placeholder="Enter any Indiginous peoples you identify with"
+            placeholder="Decleration of identity"
             className=""
           ></Form.Control>
+          <Form.Text className="text-muted">
+            <i className="text-danger">*required </i> Submissions will be
+            limited to those that self-identify as Indigenous. Please provide
+            specific informnation to indicate if you are First Nations, Inuit,
+            or Métis, and if possible your nation / community affiliation.{" "}
+          </Form.Text>
         </Form.Group>
         <Form.Group className="m-4" controlId="formBasicFile">
           <Form.Label>Abstract</Form.Label>
-          <Form.Control required type="file" className=""></Form.Control>
+          <Form.Control type="file" className=""></Form.Control>
           <Form.Text className="text-muted">
             <i className="text-danger">*required </i>
-            Abstracts should be between 200-300 words
+            Abstracts should be between 200-300 words. Files cannot be larger
+            than 10 MB in size.
           </Form.Text>
         </Form.Group>
         <Button type="submit" className="m-4">
