@@ -88,7 +88,7 @@ export default function Home() {
               </p>
               <ul>
                 <li>Turtle Island Indigenous Research Ethics</li>
-                <li>Maori Indigenous Research Ethics</li>
+                <li>Māori Indigenous Research Ethics</li>
                 <li>Australian Indigenous Research</li>
                 <li>Indigenous Research Ethics in the Global South</li>
               </ul>

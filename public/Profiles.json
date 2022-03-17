@@ -9,11 +9,9 @@
       "linkedin": "https://www.linkedin.com/in/myra-j-tait-lawyer-592bbb53/"
     },
     {
-      "name": "Dr. Nisha Nath",
+      "name": "Makayla LeSann",
       "role": "host",
-      "title": "Assistant Professor of Equity Studies, Athabasca University",
-      "image": "/nnath-linkedin.jfif",
-      "linkedin": "https://www.linkedin.com/in/nisha-nath-phd-aa4b0a94/"
+      "title": "Research Assistant"
     },
     {
       "name": "Dr. Josie Auger",
@@ -23,14 +21,16 @@
       "linkedin": "https://www.linkedin.com/in/dr-josie-auger-5902b169/"
     },
     {
+      "name": "Dr. Nisha Nath",
+      "role": "host",
+      "title": "Assistant Professor of Equity Studies, Athabasca University",
+      "image": "/nnath-linkedin.jfif",
+      "linkedin": "https://www.linkedin.com/in/nisha-nath-phd-aa4b0a94/"
+    },
+    {
       "name": "Dr. Carolyn Greene",
       "role": "host",
       "title": "Associate Professor of Criminal Justice, Athabasca University"
-    },
-    {
-      "name": "Makayla Higham",
-      "role": "host",
-      "title": "Research Assistant"
     }
   ]
 }

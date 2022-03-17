@@ -66,8 +66,8 @@ export default class AbstractForm extends Component {
             placeholder="Enter your name"
             className=""
           ></Form.Control>
-          <Form.Text>
-            <i className="text-danger">*required</i>
+          <Form.Text className="text-muted">
+            <i className="text-danger">*required </i> Enter the same name that you register with in Eventbrite.
           </Form.Text>
         </Form.Group>
         <Form.Group className="m-4" controlId="formBasicIdentification">
@@ -80,7 +80,7 @@ export default class AbstractForm extends Component {
           <Form.Text className="text-muted">
             <i className="text-danger">*required </i> Submissions will be
             limited to those that self-identify as Indigenous. Please provide
-            specific informnation to indicate if you are First Nations, Inuit,
+            specific information to indicate if you are First Nations, Inuit,
             or Métis, and if possible your nation / community affiliation.{" "}
           </Form.Text>
         </Form.Group>
