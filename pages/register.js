@@ -26,14 +26,13 @@ export default function Register() {
       ></Script>
       <main className={`${styles["main"]}`}>
         <Container>
-          <h1>Work In Progress</h1>
+          <h1>Register with Our Eventbrite</h1>
           <Row>
             <Col>
-              <p>Check back here for more information coming soon!</p>
+              <p></p>
             </Col>
           </Row>
-          <div id="eventbrite-widget-container-277605514567" >
-      </div>
+          <div id="eventbrite-widget-container-277605514567"></div>
         </Container>
       </main>
     </Layout>

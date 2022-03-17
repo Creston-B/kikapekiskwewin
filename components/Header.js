@@ -46,9 +46,9 @@ class NavComponent extends Component {
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
             </Col>
           </Row>
-          <Row className="container-fluid banner align-self-end p-0">
-            <Navbar.Collapse id="basic-navbar-nav" className="pb-3">
-              <Nav justify className="ml-auto text-end">
+          <Row className="container-fluid banner align-self-end  p-0">
+            <Navbar.Collapse id="basic-navbar-nav" className="pb-3 justify-content-center">
+              <Nav justify className="ml-auto text-end ">
                 <Nav.Link className="nav-item" href="/location">
                   <strong>Location</strong>
                 </Nav.Link>
