@@ -32,7 +32,7 @@ class NavComponent extends Component {
                     </Col>
                     <Col className="kikapekiskwewin-logo-text col-8">
                       <Image
-                        src="/kikapekiskwewin-logo-crop-stroke-2.png"
+                        src="/kikapekiskwewin-logo-4-crop.png"
                         objectFit="contain"
                         layout="fill"
                         alt="kikapekiskwewin logo"

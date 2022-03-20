@@ -29,6 +29,8 @@ export default class UserList extends Component {
             description={user.description}
             image={user.image || profiledata.defaultImage}
             linkedin={user.linkedin}
+            twitter={user.twitter}
+            facebook={user.facebook}
           ></UserCard>
         ))}
         </Row>

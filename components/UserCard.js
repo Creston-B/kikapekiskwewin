@@ -5,7 +5,8 @@ import { Card } from "react-bootstrap";
 
 export default class UserCard extends Component {
   render() {
-    const { name, title, image, description, linkedin, twitter } = this.props;
+    const { name, title, image, description, linkedin, twitter, facebook } =
+      this.props;
     return (
       <Card className={`h-100 m-1 pt-3 ${styles["user-card"]}`}>
         <Image
@@ -25,8 +26,13 @@ export default class UserCard extends Component {
               className="text-decoration-none text-reset"
             >
               <div className="align-middle">
-              <Image src="/In-Blue-Logo.png" width={21} height={21}/>
-              <span className="align-top"> LinkedIn</span>
+                <Image
+                  src="/In-Blue-Logo.png"
+                  width={21}
+                  height={21}
+                  alt="linkedin"
+                />
+                <span className="align-top"> LinkedIn</span>
               </div>
             </Card.Link>
           ) : (
@@ -38,8 +44,31 @@ export default class UserCard extends Component {
               className="text-decoration-none text-reset"
             >
               <div className="align-middle">
-              <Image src="/twitter-social-blue.svg" width={21} height={21}/>
-              <span className="align-top"> LinkedIn</span>
+                <Image
+                  src="/twitter-social-blue.svg"
+                  width={21}
+                  height={21}
+                  alt="twitter"
+                />
+                <span className="align-top"> Twitter</span>
+              </div>
+            </Card.Link>
+          ) : (
+            []
+          )}
+          {facebook ? (
+            <Card.Link
+              href={facebook}
+              className="text-decoration-none text-reset"
+            >
+              <div className="align-middle">
+                <Image
+                  src="/f_logo_RGB-Blue_144.png"
+                  width={21}
+                  height={21}
+                  alt="facebook"
+                />
+                <span className="align-top"> Facebook</span>
               </div>
             </Card.Link>
           ) : (

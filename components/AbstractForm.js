@@ -19,13 +19,18 @@ export default class AbstractForm extends Component {
         event.preventDefault();
         event.stopPropagation();
       }
+
       this.setState({ validated: true });
       event.preventDefault();
       try {
         const sendForm = async () => {
           const res = await fetch("/api/formemail", {
             method: "POST",
-            body: "message",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              email: event.target.formBasicEmail.value,
+              name: event.target.formBasicName.value,
+            }),
           });
           const status = await res.status;
           if (status != 200) {
@@ -75,7 +80,7 @@ export default class AbstractForm extends Component {
           <Form.Label>Self Identification</Form.Label>
           <Form.Control
             type="text"
-            placeholder="Decleration of identity"
+            placeholder="Deceleration of identity"
             className=""
           ></Form.Control>
           <Form.Text className="text-muted">

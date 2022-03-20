@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/People.module.scss"
+import styles from "../styles/People.module.scss";
 import Layout from "../components/Layout";
 import { Container, Row, Col } from "react-bootstrap";
 import UserList from "../components/UserList";
@@ -15,16 +15,12 @@ export default function People({ profiledata }) {
       </Head>
       <main className={`${styles["main"]}`}>
         <Container className="mt-5">
+          <h2 className={`${styles["people-label"]}`}>Hosts</h2>
           <Row id="Team" className="mt-4 mb-4">
-            <h3 className={`${styles["people-label"]}`}>Hosts</h3>
             <UserList profiledata={profiledata} role="host"></UserList>
           </Row>
           <Row className="mt-4 mb-4">
-            <h3 className={`${styles["people-label"]}`}>Presenters</h3>
-            <UserList
-              profiledata={profiledata}
-              role="presenter"
-            ></UserList>
+            <UserList profiledata={profiledata} role="presenter"></UserList>
           </Row>
         </Container>
       </main>
