@@ -10,11 +10,7 @@ export default class UserList extends Component {
     const profiles = profiledata.profiles.filter((user) => user.role == role);
 
     if (Object.keys(profiles).length == 0) {
-      return (
-        <div className="mt-4 mb-4">
-          <h2>To be announced!</h2>
-        </div>
-      );
+      return null;
     }
 
     return (
