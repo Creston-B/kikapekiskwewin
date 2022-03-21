@@ -11,6 +11,8 @@ import { v1 as uuidv1, v4 as uuidv4 } from "uuid";
 export default async function handler(request, response) {
   try {
     const input = request.body;
+    const sender = `"Kikapekiskwewin Submissions" <forms@kikapekiskwewin.ca>`;
+    const receiver = `"Creston Barker" <creston@barkerdev.ca>`;
     const client = new SESv2Client({
       region: "us-east-2",
       credentials: {
@@ -23,6 +25,8 @@ export default async function handler(request, response) {
       body: [],
     });
     mime.header("Message-ID", `<kikapekiskwewin-${uuidv1()}-${uuidv4()}>`);
+    mime.header("From", sender);
+    mime.header("To", receiver);
     mime.header(
       "Subject",
       `Kikapekiskwewin Abstract Submission - ${input.name}`
@@ -37,7 +41,7 @@ export default async function handler(request, response) {
       <p><ul>
       <li><strong>Name:</strong> ${input.name}</li>
       <li><strong>Email:</strong> ${input.email}</li>
-      <li><strong>Declared Identity:</strong>${input.identity}</li>
+      <li><strong>Declared Identity:</strong> ${input.identity}</li>
       </ul>
       The accompanying file is attached.
       </p>
@@ -67,19 +71,18 @@ export default async function handler(request, response) {
 
     mime.body.push(altmsg);
     mime.body.push(attachment);
-    console.log(mime.toString());
     const message = {
       Destination: {
-        ToAddresses: ["creston@barkerdev.ca"],
+        ToAddresses: [receiver],
       },
       Content: {
         Raw: {
           Data: Buffer.from(mime.toString(), "utf-8"),
         },
       },
-      ReplyToAddresses: ["creston@barkerdev.ca"],
+      ReplyToAddresses: ["kikapekiskwewin@gmail.com"],
       FeedbackForwardingEmailAddress: "creston@barkerdev.ca",
-      FromEmailAddress: "forms@kikapekiskwewin.ca",
+      FromEmailAddress: sender,
     };
     const command = new SendEmailCommand(message);
     const result = await client.send(command);
