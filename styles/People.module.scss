@@ -52,11 +52,23 @@
   .user-card {
     width: 34vw;
   }
+
+  .user-card-detail-text {
+    font-size: .7rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .user-card {
     width: 60vw;
+  }
+
+  .user-card-focus {
+    z-index: 100;
+    transform: scale(1.2);
+  }
+  .user-card-detail-text {
+    font-size: 1rem;
   }
 }
 
@@ -71,4 +83,28 @@
   .user-card {
     width: 80vw;
   }
+  .user-card-detail-text {
+    font-size: .9rem;
+  }
 }
+
+@media screen and (max-width: 450px) {
+  .user-card-focus {
+    z-index: 100;
+
+  }
+  .user-card-detail-text {
+    font-size: .8rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .user-card-focus {
+    z-index: 100;
+
+  }
+  .user-card-detail-text {
+    font-size: .76rem;
+  }
+}
+
