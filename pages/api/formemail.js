@@ -23,21 +23,33 @@ export default async function handler(request, response) {
       body: [],
     });
     mime.header("Message-ID", `<kikapekiskwewin-${uuidv1()}-${uuidv4()}>`);
+    mime.header(
+      "Subject",
+      `Kikapekiskwewin Abstract Submission - ${input.name}`
+    );
     const altmsg = mimemessage.factory({
       contentType: "multipart/alternate",
       body: [],
     });
     const htmlmsg = mimemessage.factory({
       contentType: "text/html;charset=utf-8",
-      body: `message with <i>html</i> in it. <div>
-      <h2>Bame: ${input.name}</h2>
-      </div>
-      <div>
-      <h2>Email: ${input.email}</h2></div>
-      <div><h4>Identity: ${input.identity}</h4></div>`,
+      body: `<h2>A submission has been made on the Kikapekiskwewin.ca site.</h2>
+      <p><ul>
+      <li><strong>Name:</strong> ${input.name}</li>
+      <li><strong>Email:</strong> ${input.email}</li>
+      <li><strong>Declared Identity:</strong>${input.identity}</li>
+      </ul>
+      The accompanying file is attached.
+      </p>
+      `,
     });
     const txtmsg = mimemessage.factory({
-      body: "plaintext message",
+      body: `A submission has been made on the Kikapekiskwewin.ca site.
+      \n Name: ${input.name}
+      \n Email: ${input.email}
+      \n Declared Identity: ${input.identity}
+      \n The accompanying file is attached.
+      `,
     });
     const filesplit = input.file.split(/([,:;])/);
     const attachment = mimemessage.factory({
@@ -55,25 +67,23 @@ export default async function handler(request, response) {
 
     mime.body.push(altmsg);
     mime.body.push(attachment);
-
+    console.log(mime.toString());
     const message = {
       Destination: {
         ToAddresses: ["creston@barkerdev.ca"],
       },
       Content: {
         Raw: {
-          Data: mime.toString(),
+          Data: Buffer.from(mime.toString(), "utf-8"),
         },
       },
       ReplyToAddresses: ["creston@barkerdev.ca"],
       FeedbackForwardingEmailAddress: "creston@barkerdev.ca",
       FromEmailAddress: "forms@kikapekiskwewin.ca",
     };
-    console.log(message);
     const command = new SendEmailCommand(message);
-
     const result = await client.send(command);
-    response.status(200).send("Success");
+    response.status(200).send(`Success, message id: ${result.MessageId}`);
   } catch (error) {
     console.log("Error: ", error);
     response.status(500).send(error);
