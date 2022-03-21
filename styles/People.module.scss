@@ -6,8 +6,41 @@
 }
 
 .user-card {
+  transition: 0.4s;
+  position: relative;
   width: 300px;
+  overflow: hidden;
+}
 
+.user-card-focus {
+  z-index: 100;
+  transform: scale(1.5);
+}
+
+.user-card-detail {
+  position: absolute;
+  overflow: hidden;
+  pointer-events: none;
+  transition-duration: 0.4s;
+  transform: translateY(200%);
+  background-color: rgba(white, 0.8);
+  width: 100%;
+}
+
+.user-card-detail-text {
+  font-size: small;
+}
+
+.user-card-detail-show {
+  transform: translateY(0);
+}
+
+.user-card-blur {
+  transition: 0.4s;
+  filter: blur(0px);
+}
+.user-card-doblur {
+  filter: blur(6px);
 }
 
 .user-card-body {

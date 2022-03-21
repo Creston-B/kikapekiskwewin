@@ -12,7 +12,7 @@ export default async function handler(request, response) {
   try {
     const input = request.body;
     const sender = `"Kikapekiskwewin Submissions" <forms@kikapekiskwewin.ca>`;
-    const receiver = `"Creston Barker" <creston@barkerdev.ca>`;
+    const receiver = `"Kikapekiskwewin" <kikapekiskwewin@gmail.com>`;
     const client = new SESv2Client({
       region: "us-east-2",
       credentials: {

@@ -40,7 +40,6 @@ export default class AbstractForm extends Component {
       let comp = this;
       try {
         const sendForm = async () => {
-
           const file = event.target.formBasicFile.files[0];
 
           const formData = new FormData();
@@ -124,6 +123,7 @@ export default class AbstractForm extends Component {
         <Form.Group className="m-4" controlId="formBasicIdentification">
           <Form.Label>Self Identification</Form.Label>
           <Form.Control
+            required
             type="text"
             placeholder="Deceleration of identity"
             className=""
@@ -137,7 +137,7 @@ export default class AbstractForm extends Component {
         </Form.Group>
         <Form.Group className="m-4" controlId="formBasicFile">
           <Form.Label>Abstract</Form.Label>
-          <Form.Control type="file" className=""></Form.Control>
+          <Form.Control required type="file" className=""></Form.Control>
           <Form.Text className="text-muted">
             <i className="text-danger">*required </i>
             Abstracts should be between 200-300 words. Files cannot be larger
