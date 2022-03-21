@@ -8,16 +8,18 @@ export default class UserCard extends Component {
     const { name, title, image, description, linkedin, twitter, facebook } =
       this.props;
     return (
-      <Card className={`h-100 m-1 pt-3 ${styles["user-card"]}`}>
-        <Image
-          src={image}
-          alt={name}
-          width={300}
-          height={300}
-          layout="responsive"
-          className="card-image"
-        />
-        <Card.Body>
+      <Card className={`h-100 pt-3 p-2 ${styles["user-card"]}`}>
+        <div>
+          <Image
+            src={image}
+            alt={name}
+            width={300}
+            height={300}
+            layout="responsive"
+            className="card-image"
+          />
+        </div>
+        <Card.Body className="user-card-body">
           <Card.Title>{name}</Card.Title>
           <Card.Text>{title}</Card.Text>
           {linkedin ? (

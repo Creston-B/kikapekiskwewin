@@ -7,6 +7,13 @@ export default class FooterComponent extends Component {
   render() {
     return (
       <footer className={`footer`}>
+        <Container className="">
+          <h5 className="fit-content ml-auto inline-block text-end">
+            <a href="mailto:kikapekiskwewin@gmail.com">
+              Contact Us - kikapekiskwewin@gmail.com
+            </a>
+          </h5>
+        </Container>
         <Row className="align-items-end w-100">
           <Col className="m-2">
             <a
@@ -35,7 +42,10 @@ export default class FooterComponent extends Component {
             <a href="mailto:creston@barkerdev.com">creston@barkedev.com</a> 2021
           </Col>
           <div className="w-100 d-block d-sm-none"></div>
-          <Col className="m-2">Art © Jean Tait - used under license</Col>
+          <Col className="m-2">
+            <a href="https://artcanheal.ca/">Art © Jean Tait - artcanheal.ca</a>{" "}
+            - used under license
+          </Col>
           <Col className="justify-content-end m-2">
             <a
               href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"

@@ -6,19 +6,23 @@
 }
 
 .user-card {
-  width: 400px;
+  width: 300px;
+
 }
 
+.user-card-body {
+  flex: 1 0;
+}
 
 @media screen and (max-width: 992px) {
   .user-card {
-    width: 30%;
+    width: 34vw;
   }
 }
 
 @media screen and (max-width: 768px) {
   .user-card {
-    width: 40%;
+    width: 60vw;
   }
 }
 
@@ -31,6 +35,6 @@
   }
 
   .user-card {
-    width: 80%;
+    width: 80vw;
   }
 }
