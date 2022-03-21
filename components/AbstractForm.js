@@ -1,3 +1,4 @@
+import { RestoreObjectCommand } from "@aws-sdk/client-s3";
 import React, { Component } from "react";
 import { Form, Button, Alert } from "react-bootstrap";
 import styles from "../styles/Home.module.scss";
@@ -13,6 +14,20 @@ export default class AbstractForm extends Component {
   }
 
   render() {
+    function getBase64(file) {
+      return new Promise((resolve, reject) => {
+        var reader = new FileReader();
+        reader.readAsDataURL(file);
+        reader.onload = function () {
+          resolve(reader.result);
+        };
+        reader.onerror = function (error) {
+          console.log("Error: ", error);
+          reject(`File read error: ${error}`);
+        };
+      });
+    }
+
     const handleSubmit = (event) => {
       const form = event.currentTarget;
       if (form.checkValidity() === false) {
@@ -20,28 +35,58 @@ export default class AbstractForm extends Component {
         event.stopPropagation();
       }
 
-      this.setState({ validated: true });
+      this.setState({ validated: true, error: false });
       event.preventDefault();
+      let comp = this;
       try {
         const sendForm = async () => {
+
+          const file = event.target.formBasicFile.files[0];
+
+          const formData = new FormData();
+          formData.append("email", event.target.formBasicEmail.value);
+          formData.append("name", event.target.formBasicName.value);
+          formData.append(
+            "identity",
+            event.target.formBasicIdentification.value
+          );
+          formData.append("file", file);
+
           const res = await fetch("/api/formemail", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
               email: event.target.formBasicEmail.value,
               name: event.target.formBasicName.value,
+              identity: event.target.formBasicIdentification.value,
+              file: await getBase64(event.target.formBasicFile.files[0]),
+              filename: event.target.formBasicFile.files[0].name,
             }),
           });
-          const status = await res.status;
-          if (status != 200) {
-            throw `Request failed: ${status}`;
+          const resstatus = await res.status;
+          if (resstatus != 200) {
+            throw `Request failed: ${resstatus}`;
           }
+          return res;
         };
-        sendForm().catch((err) => {
-          this.setState({ error: true, error_text: err });
-        });
+        sendForm()
+          .then((res) => {
+            if (res.status === 200) comp.setState({ submitted: true });
+            else Promise.reject(`error: ${res.status}`);
+          })
+          .catch((err) => {
+            comp.setState({
+              error: true,
+              error_text: err.toString(),
+              submitted: false,
+            });
+          });
       } catch (error) {
-        this.setState({ error: true, error_text: error.message });
+        this.setState({
+          error: true,
+          error_text: error.message,
+          submitted: false,
+        });
       }
     };
     return (
