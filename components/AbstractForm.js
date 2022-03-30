@@ -125,7 +125,7 @@ export default class AbstractForm extends Component {
           <Form.Control
             required
             type="text"
-            placeholder="Deceleration of identity"
+            placeholder="Declaration of identity"
             className=""
           ></Form.Control>
           <Form.Text className="text-muted">
