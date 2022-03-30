@@ -43,7 +43,7 @@ export default class FooterComponent extends Component {
           </Col>
           <div className="w-100 d-block d-sm-none"></div>
           <Col className="m-2">
-            <a href="https://artcanheal.ca/">Art © Jean Tait - artcanheal.ca</a>{" "}
+            <a href="https://artcanheal.ca/">Art © Jean E Tait - artcanheal.ca</a>{" "}
             - used under license
           </Col>
           <Col className="justify-content-end m-2">
