@@ -5,7 +5,7 @@ const Sitemap = () => {
 };
 
 export const getServerSideProps = async ({ res }) => {
-  const BASE_URL = "http://kikpekiskwewin.ca";
+  const BASE_URL = "https://www.kikpekiskwewin.ca";
 
   const staticPaths = fs
       .readdirSync("pages")
