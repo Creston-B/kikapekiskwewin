@@ -11,7 +11,7 @@ export const getServerSideProps = async ({ res }) => {
     .readdirSync(
       {
         development: "pages",
-        production: "./.next/server/pages",
+        production: "./.next/server/pages/",
       }[process.env.NODE_ENV]
     )
     .filter((staticPage) => {
@@ -19,7 +19,9 @@ export const getServerSideProps = async ({ res }) => {
         "api",
         "_app.js",
         "_document.js",
+        "_error.js",
         "404.js",
+        "404.html",
         "sitemap.xml.js",
       ].includes(staticPage);
     })
