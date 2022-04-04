@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <meta name="keywords" content="kikapekiskwewin indigenous conference indian ethics culture"></meta>
         <meta name="description" content="Why are cultural values so important to Indigenous people involved in
-          research with Indigenous people? A two-day virtual and in-person gathering  on June 14-15, 2022">
+          research with Indigenous people? A two-day virtual and in-person gathering  on June 14-15, 2022"></meta>
       </Head>
       <div className={`${styles["back-image"]}`}></div>
       <div className={`${styles["back-textbox"]}`}>
