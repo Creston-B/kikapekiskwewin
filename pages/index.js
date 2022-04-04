@@ -11,7 +11,9 @@ export default function Home() {
       <Head>
         <title>kikapekiskwewin</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta keywords="kikapekiskwewin"></meta>
+        <meta name="keywords" content="kikapekiskwewin indigenous conference indian ethics culture"></meta>
+        <meta name="description" content="Why are cultural values so important to Indigenous people involved in
+          research with Indigenous people? A two-day virtual and in-person gathering  on June 14-15, 2022">
       </Head>
       <div className={`${styles["back-image"]}`}></div>
       <div className={`${styles["back-textbox"]}`}>
