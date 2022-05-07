@@ -39,7 +39,7 @@ export default class FooterComponent extends Component {
           </Col>
           <Col className="m-2">
             © Creston Barker -{" "}
-            <a href="mailto:creston@barkerdev.com">creston@barkedev.com</a> 2021
+            <a href="mailto:creston@barkerdev.com">creston@barkerdev.com</a> 2021
           </Col>
           <div className="w-100 d-block d-sm-none"></div>
           <Col className="m-2">
