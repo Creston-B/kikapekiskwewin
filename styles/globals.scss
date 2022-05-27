@@ -95,6 +95,11 @@ a {
   z-index: 10000;
 }
 
+.sshrc-logo {
+  width: fit-content;
+  height: 90px;
+}
+
 // @media screen and (max-width: 1400px) {
 
 // }
@@ -127,6 +132,8 @@ a {
   .kikapekiskwewin-logo-text{
     display: none;
   }
+
+
 }
 
 @media (prefers-color-scheme: dark) {
