@@ -70,7 +70,7 @@ export default function Location() {
           </Row>
           <Row className="pb-5">
             <Col className="ps-3 pb-3">
-              <h3 className="">Athabasca Regional Multiplex</h3>
+              <h3 className="">Athabasca Native Friendship Centre</h3>
               <h5 className="lh-sm lead"> 4919 53 St, Athabasca</h5>
               <div>Location for official lunch.</div>
             </Col>
