@@ -26,6 +26,7 @@ export default class UserList extends Component {
                 linkedin={user.linkedin}
                 twitter={user.twitter}
                 facebook={user.facebook}
+                weblink={user.weblink}
                 className="flex-column"
               ></UserCard>
             </Col>
