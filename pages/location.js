@@ -48,7 +48,7 @@ export default function Location() {
       </div>
 
       <main className={`${styles["main"]}`}>
-        <Container className="pt-5">
+        {/* <Container className="pt-5">
           <Row className="pt-5 pb-5">
             <h2>Event Locations</h2>
           </Row>
@@ -57,7 +57,7 @@ export default function Location() {
             Location 1
             </h3>
           </Row>
-        </Container>
+        </Container> */}
       </main>
     </Layout>
   );
