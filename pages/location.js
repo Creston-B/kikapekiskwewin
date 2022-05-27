@@ -44,11 +44,20 @@ export default function Location() {
               </p>
             </Col>
           </Row>
-          <Row></Row>
         </Container>
       </div>
 
       <main className={`${styles["main"]}`}>
+        <Container className="pt-5">
+          <Row className="pt-5 pb-5">
+            <h2>Event Locations</h2>
+          </Row>
+          <Row>
+            <h3 className="ps-5">
+            Location 1
+            </h3>
+          </Row>
+        </Container>
       </main>
     </Layout>
   );

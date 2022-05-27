@@ -22,7 +22,7 @@ export default class Covid19Alert extends Component {
             className="c19-alert"
           >
             <Alert.Heading>Covid 19 Information</Alert.Heading>
-            <p>Covid 19 information TBD.</p>
+            <p>All in-person attendees must be fully vaccinated for Covid-19.</p>
           </Alert>
         </div>
       );
