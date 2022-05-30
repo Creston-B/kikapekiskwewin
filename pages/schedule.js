@@ -3,8 +3,10 @@ import Image from "next/image";
 import styles from "../styles/Home.module.scss";
 import Layout from "../components/Layout";
 import { Container, Row, Col } from "react-bootstrap";
+import ScheduleList from "../components/ScheduleList"
+import schedule from "../public/Schedule.json";
 
-export default function Schedule() {
+export default function Schedule({scheduleData}) {
   return (
     <Layout>
       <Head>
@@ -13,17 +15,34 @@ export default function Schedule() {
       </Head>
       <main className={`${styles["main"]}`}>
         <Container >
-          <h1>June 14-15, 2022</h1>
-          <h2>More TBD!</h2>
+          <h1>June 14</h1>
           <Row>
             <Col>
-              <p>
-                Check back here for more information coming soon!
-              </p>
+            <ScheduleList scheduleData={scheduleData} day={"14"}/>
+            </Col>
+          </Row>
+          <h1>June 15</h1>
+          <Row>
+            <Col>
+            <ScheduleList scheduleData={scheduleData} day={"15"}/>
             </Col>
           </Row>
         </Container>
       </main>
     </Layout>
   );
+}
+
+export async function getStaticProps(context) {
+  const scheduleData = schedule;
+
+  if (!scheduleData) {
+    return {
+      notFound: true,
+    };
+  }
+
+  return {
+    props: { scheduleData },
+  };
 }

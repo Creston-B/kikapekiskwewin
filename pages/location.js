@@ -92,7 +92,7 @@ export default function Location() {
               <h3 className="">Days Inn by Wyndham Athabasca</h3>
               <h5 className="lh-sm lead"> 2805 48 Ave, Athabasca</h5>
               <div>
-                A local hotel where a number of our organizers are staying.
+                A local hotel where a number of our organizers are staying. Days Inn offers a discount to AU faculty and staff.
               </div>
             </Col>
             <Col>
