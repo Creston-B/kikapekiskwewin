@@ -11,8 +11,16 @@ export default class UserCard extends Component {
     };
   }
   render() {
-    const { name, title, image, description, linkedin, twitter, facebook } =
-      this.props;
+    const {
+      name,
+      title,
+      image,
+      description,
+      linkedin,
+      twitter,
+      facebook,
+      weblink,
+    } = this.props;
     return (
       <Card
         className={`h-100 ${styles["user-card"]} ${
@@ -93,7 +101,25 @@ export default class UserCard extends Component {
                     height={21}
                     alt="facebook"
                   />
-                  <span className="align-top"> Facebook</span>
+                  <span className="align-top">Facebook</span>
+                </div>
+              </Card.Link>
+            ) : (
+              []
+            )}
+            {weblink ? (
+              <Card.Link
+                href={`https://${weblink}`}
+                className="text-decoration-none text-reset"
+              >
+                <div className="align-middle">
+                  <Image
+                    src="/globe-4286.svg"
+                    width={21}
+                    height={21}
+                    alt="website"
+                  />
+                  <span className="align-top"> {weblink}</span>
                 </div>
               </Card.Link>
             ) : (

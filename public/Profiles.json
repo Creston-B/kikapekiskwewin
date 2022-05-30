@@ -4,7 +4,7 @@
     {
       "name": "Myra Tait",
       "role": "host",
-      "title": "Assistant Professor of Governence and Law & Management, Athabasca University",
+      "title": "Assistant Professor of Governance, Law & Management, Athabasca University",
       "image": "/mtait-linkedin.jfif",
       "linkedin": "https://www.linkedin.com/in/myra-j-tait-lawyer-592bbb53/",
       "twitter": "https://twitter.com/mjtait22",
@@ -13,15 +13,17 @@
     {
       "name": "Makayla LeSann",
       "role": "host",
-      "title": "Research Assistant"
+      "title": "Research Assistant",
+      "image":"/mLeSann.jpg",
+      "description":"Makayla LeSann is a current Athabasca University graduate level student in the Master of Arts in Integrated Studies Program. Makayla’s research focus in her program is on Métis communities in Alberta. As a Métis Albertan herself with heritage connecting to the Métis homeland, she is inspired to lead her academic and career journey working as an advocate for her community. She is blessed to be able to participate in kikipekswewin with the amazing co-organizers of the conversation conference."
     },
     {
       "name": "Dr. Josie Auger",
       "role": "host",
       "title": "Associate Professor of Indigenous Studies, Athabasca University",
       "image": "/jauger-linkedin.jfif",
-      "linkedin": "https://www.linkedin.com/in/dr-josie-auger-5902b169/"
-      
+      "linkedin": "https://www.linkedin.com/in/dr-josie-auger-5902b169/",
+      "description": "Listening to Cree women share their Invasion of Sexual Boundaries using Indigenous Research Methodology and going through the Research Ethics Board process at the university led to seeking institutional and SSHRC Connections Grant funding for this event. As a researcher working with Cree women from my own community, we used sacred teachings and natural laws to address self-determination and sovereignty. While we will be kikapekiskwewin (having a future conversation) about why cultural values are so important to Indigenous researchers involved in research with Indigenous people, we would like to invite you to attend and listen or even share your university research ethics board experience to obtain approval using Indigenous research methodology. I am a trusted listener from Bigstone Cree Nation in Treaty 8 (Turtle Island), and earned my PhD in 2010 in Public Health Sciences at the University of Alberta. Currently, I am an Associate Professor at Athabasca University in Indigenous Studies, in the Faculty of Humanities and Social Sciences."
     },
     {
       "name": "Dr. Nisha Nath",
@@ -34,7 +36,16 @@
     {
       "name": "Dr. Carolyn Greene",
       "role": "host",
-      "title": "Associate Professor of Criminal Justice, Athabasca University"
+      "title": "Associate Professor of Criminal Justice, Athabasca University",
+      "image":"/CGreene.jpeg",
+      "description":"Carolyn Greene (she/her) is a settler, who lives with her family in Mohkinstsis in Treaty 7. Her collaboration with kikapekiskwewin is the result of relationships developed while serving as the Research Ethics Board Chair at Athabasca University. She is also a criminologist and Associate Professor of Criminal Justice at Athabasca University and is currently working on other projects examining resident experiences of invasive policing practices, perceptions of police, and community perceptions of safe consumption services."
+    },
+    {"name": "Dr. Michelle Kennedy ",
+      "role": "host",
+      "title": "Assistant Dean Indigenous Strategy and Leadership for the College of Health Medicine and Wellbeing, University of Newcastle",
+      "image":"/mKennedyCrop.jpg",
+      "description":"Dr Michelle Kennedy is a Wiradjuri woman who has grown up on Worimi country, Australia. Michelle is an NHMRC early-career researcher, partnering with Aboriginal communities to place the power in their hands and address priority areas to improve Indigenous health. Michelle brings 16 year’s experience working with Aboriginal communities and Indigenous ways of knowing, being and doing to the health research space to deliver health research that is appropriate, engaging and meaningful for Aboriginal and Torres Strait Islander people. Michelle is leading a national study Murru Minya exploring the conduct of research with Aboriginal and Torres Strait Islander people and communities.<br>Michelle is the Assistant Dean Indigenous Strategy and Leadership for the College of Health Medicine and Wellbeing at the University of Newcastle, the Executive Manager of Research and Knowledge Translation at the Lowitja Institute and the Vice President Aboriginal and Torres Strait Islander for the Public Health Association.",
+      "weblink":"www.murruminya.com.au"
     }
   ]
 }
