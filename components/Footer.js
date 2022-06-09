@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Row, Col, Stack} from "react-bootstrap";
+import { Container, Row, Col, Stack } from "react-bootstrap";
 import Image from "next/dist/client/image";
 
 export default class FooterComponent extends Component {
@@ -7,24 +7,8 @@ export default class FooterComponent extends Component {
     return (
       <footer className={`footer`}>
         <Container className="">
-          <Row xs={1} md={2}>
-            <Col>
-              <div className="position-relative sshrc-logo">
-                kikapekiskwewin is supported in part by funding from the Social
-                Sciences and Humanities Research Council
-                <Image
-                  src={"/sshrc-fip-full-black-eng.png"}
-                  layout="fill"
-                  objectFit="contain"
-                  alt="SSHRC Signature"
-                />
-              </div>
-            </Col>
-            <Col
-              xs={{ order: "first" }}
-              md={{ order: "last" }}
-              className={"mb-5 mb-1-sm"}
-            >
+          <Row>
+            <Col className={"mb-5 mb-1-sm"}>
               <h5 className="fit-content ml-auto inline-block text-end">
                 <a href="mailto:kikapekiskwewin@gmail.com">
                   Contact Us - kikapekiskwewin@gmail.com
@@ -32,7 +16,33 @@ export default class FooterComponent extends Component {
               </h5>
             </Col>
           </Row>
-
+          <Row>
+            <Col className="h-100">
+              <div className="position-relative sshrc-logo">
+                kikapekiskwewin is supported in part by funding from the Social
+                Sciences and Humanities Research Council
+                <Image
+                  className="align-bottom"
+                  src={"/sshrc-fip-full-black-eng.png"}
+                  layout="fill"
+                  objectFit="contain"
+                  alt="SSHRC Signature"
+                />
+              </div>
+            </Col>
+            <Col className="h-100">
+              <div className="position-relative au-logo">
+                kikapekiskwewin is supported in part by Athabasca University
+                <Image
+                  className="pt-4 align-bottom"
+                  src={"/AU_Logo_Horiz_Trans.png"}
+                  layout="fill"
+                  objectFit="contain"
+                  alt="AU Logo"
+                />
+              </div>
+            </Col>
+          </Row>
           <Row className="align-items-end w-100">
             <Col className="m-2 " align="center">
               <a

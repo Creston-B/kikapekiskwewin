@@ -42,7 +42,7 @@ export default class UserCard extends Component {
             }}
           >
             <Image
-              src={image}
+              src={`/BioPictures/${image}`}
               alt={name}
               width={300}
               height={300}

@@ -1,11 +1,11 @@
 {
-  "defaultImage": "/sample-user.png",
+  "defaultImage": "sample-user.png",
   "profiles": [
     {
       "name": "Myra Tait",
       "role": "host",
       "title": "Assistant Professor of Governance, Law & Management, Athabasca University",
-      "image": "/mtait-linkedin.jfif",
+      "image": "mtait-linkedin.jfif",
       "linkedin": "https://www.linkedin.com/in/myra-j-tait-lawyer-592bbb53/",
       "twitter": "https://twitter.com/mjtait22",
       "description": "Myra is a proud member of Berens River First Nation in Treaty #5 territory. She holds a Juris Doctor (Law) degree and a Master of Laws, which examined the relationship between the taxation provisions of the Indian Act and the Numbered Treaties. She has conducted research in New Zealand and Australia on Constitutional inclusion of Indigenous peoples, and has presented on this research in multiple international forums. In response to Canada’s recent celebration of colonization, she co-edited Surviving Canada: Indigenous Peoples Celebrate 150 Years of Betrayal (2017). She received her Call to the Manitoba Bar in 2018, and practiced Aboriginal law, working with First Nations in Manitoba. Myra’s legal work and teaching spans topics in governance, community sustainable development, and taxation. Her research currently focuses on social justice in the areas of First Nations children, policy development, and health equity. Advancing conciliation and social justice for and with Indigenous peoples, including within the academe, drives Myra’s service, research, and teaching."
@@ -14,14 +14,14 @@
       "name": "Makayla LeSann",
       "role": "host",
       "title": "Research Assistant",
-      "image":"/mLeSann.jpg",
-      "description":"Makayla LeSann is a current Athabasca University graduate level student in the Master of Arts in Integrated Studies Program. Makayla’s research focus in her program is on Métis communities in Alberta. As a Métis Albertan herself with heritage connecting to the Métis homeland, she is inspired to lead her academic and career journey working as an advocate for her community. She is blessed to be able to participate in kikipekswewin with the amazing co-organizers of the conversation conference."
+      "image": "MLeSann.jpg",
+      "description": "Makayla LeSann is a current Athabasca University graduate level student in the Master of Arts in Integrated Studies Program. Makayla’s research focus in her program is on Métis communities in Alberta. As a Métis Albertan herself with heritage connecting to the Métis homeland, she is inspired to lead her academic and career journey working as an advocate for her community. She is blessed to be able to participate in kikipekswewin with the amazing co-organizers of the conversation conference."
     },
     {
       "name": "Dr. Josie Auger",
       "role": "host",
       "title": "Associate Professor of Indigenous Studies, Athabasca University",
-      "image": "/jauger-linkedin.jfif",
+      "image": "jauger-linkedin.jfif",
       "linkedin": "https://www.linkedin.com/in/dr-josie-auger-5902b169/",
       "description": "Listening to Cree women share their Invasion of Sexual Boundaries using Indigenous Research Methodology and going through the Research Ethics Board process at the university led to seeking institutional and SSHRC Connections Grant funding for this event. As a researcher working with Cree women from my own community, we used sacred teachings and natural laws to address self-determination and sovereignty. While we will be kikapekiskwewin (having a future conversation) about why cultural values are so important to Indigenous researchers involved in research with Indigenous people, we would like to invite you to attend and listen or even share your university research ethics board experience to obtain approval using Indigenous research methodology. I am a trusted listener from Bigstone Cree Nation in Treaty 8 (Turtle Island), and earned my PhD in 2010 in Public Health Sciences at the University of Alberta. Currently, I am an Associate Professor at Athabasca University in Indigenous Studies, in the Faculty of Humanities and Social Sciences."
     },
@@ -29,7 +29,7 @@
       "name": "Dr. Nisha Nath",
       "role": "host",
       "title": "Assistant Professor of Equity Studies, Athabasca University",
-      "image": "/nnath-linkedin.jfif",
+      "image": "nnath-linkedin.jfif",
       "linkedin": "https://www.linkedin.com/in/nisha-nath-phd-aa4b0a94/",
       "description": "Nisha Nath (she/they) is a political scientist, and an Assistant Professor of Equity Studies at Athabasca University, and an associate member of the Faculty of Graduate Studies at the University of Lethbridge. She is currently located in Amiskwaciwâskahikan (colonially known as Edmonton), in Treaty 6. Her work takes a critical approach to citizenship, focusing on the intersections of race and racism, relational securitization, and settler colonialism. In addition to collaborating on kikapekiskwewin, she is working on two other major projects. Along with an interdisciplinary team of scholars in the Canada and UK, the first is a British Academy funded project on racial capitalism and security; and, second, a SSHRC-IDG funded project with Dr. Willow Samara Allen on the settler-colonial socialization of public sector workers. She is on the editorial board of Athabasca University Press, a producer with the podcast Academic Aunties, and her work has appeared in the journals <em>Citizenship Studies, Studies in Social Justice, Feminist Studies, Canadian Journal of Political Science, Canadian Ethnic Studies,</em> as well as several edited collections."
     },
@@ -37,15 +37,127 @@
       "name": "Dr. Carolyn Greene",
       "role": "host",
       "title": "Associate Professor of Criminal Justice, Athabasca University",
-      "image":"/CGreene.jpeg",
-      "description":"Carolyn Greene (she/her) is a settler, who lives with her family in Mohkinstsis in Treaty 7. Her collaboration with kikapekiskwewin is the result of relationships developed while serving as the Research Ethics Board Chair at Athabasca University. She is also a criminologist and Associate Professor of Criminal Justice at Athabasca University and is currently working on other projects examining resident experiences of invasive policing practices, perceptions of police, and community perceptions of safe consumption services."
+      "image": "CGreene.jpeg",
+      "description": "Carolyn Greene (she/her) is a settler, who lives with her family in Mohkinstsis in Treaty 7. Her collaboration with kikapekiskwewin is the result of relationships developed while serving as the Research Ethics Board Chair at Athabasca University. She is also a criminologist and Associate Professor of Criminal Justice at Athabasca University and is currently working on other projects examining resident experiences of invasive policing practices, perceptions of police, and community perceptions of safe consumption services."
     },
-    {"name": "Dr. Michelle Kennedy ",
-      "role": "host",
+    {
+      "name": "Dr. Michelle Kennedy",
+      "role": "presenter",
       "title": "Assistant Dean Indigenous Strategy and Leadership for the College of Health Medicine and Wellbeing, University of Newcastle",
-      "image":"/mKennedyCrop.jpg",
-      "description":"Dr Michelle Kennedy is a Wiradjuri woman who has grown up on Worimi country, Australia. Michelle is an NHMRC early-career researcher, partnering with Aboriginal communities to place the power in their hands and address priority areas to improve Indigenous health. Michelle brings 16 year’s experience working with Aboriginal communities and Indigenous ways of knowing, being and doing to the health research space to deliver health research that is appropriate, engaging and meaningful for Aboriginal and Torres Strait Islander people. Michelle is leading a national study Murru Minya exploring the conduct of research with Aboriginal and Torres Strait Islander people and communities.<br>Michelle is the Assistant Dean Indigenous Strategy and Leadership for the College of Health Medicine and Wellbeing at the University of Newcastle, the Executive Manager of Research and Knowledge Translation at the Lowitja Institute and the Vice President Aboriginal and Torres Strait Islander for the Public Health Association.",
-      "weblink":"www.murruminya.com.au"
+      "image": "MKennedy.jpg",
+      "description": "Dr Michelle Kennedy is a Wiradjuri woman who has grown up on Worimi country, Australia. Michelle is an NHMRC early-career researcher, partnering with Aboriginal communities to place the power in their hands and address priority areas to improve Indigenous health. Michelle brings 16 year’s experience working with Aboriginal communities and Indigenous ways of knowing, being and doing to the health research space to deliver health research that is appropriate, engaging and meaningful for Aboriginal and Torres Strait Islander people. Michelle is leading a national study Murru Minya exploring the conduct of research with Aboriginal and Torres Strait Islander people and communities.<br>Michelle is the Assistant Dean Indigenous Strategy and Leadership for the College of Health Medicine and Wellbeing at the University of Newcastle, the Executive Manager of Research and Knowledge Translation at the Lowitja Institute and the Vice President Aboriginal and Torres Strait Islander for the Public Health Association.",
+      "weblink": "www.murruminya.com.au"
+    },
+    {
+      "name": "Angela James",
+      "role": "presenter",
+      "title": "Masters of Education, University of Saskatchewan",
+      "image": "AJames.png",
+      "description": "Angela James, née Beaver/Bigstone, was raised in the northern Alberta community of Sandy Lake, within the traditional Bigstone Cree Nation territory of Treaty Eight. The greatest gift she received from her parents was the Cree language, which is the foundation she has built her life on.  Angela is the second eldest child from a family of fourteen. Angela loves the community she grew up in and is raising her own family within it. Angela graduated from Mistassiniy High School in Northland School Division No.61 with an Academic Diploma. Angela went on to graduate from the University of Alberta in 2008, with an Education Degree and began her career teaching elementary and high school. In September 2017 Angela became the principal of Career Pathways Outreach School with Northland School Division No.61. In August 2018, Angela completed her Masters of Education in Indigenous Land Based Education at the University of Saskatchewan. Okiskinamakew means teacher in the Cree language. However, education goes both ways in Cree pedagogy, an elder has as much to learn from a child as a child can learn from an adult.  Angela wholeheartedly  passes on the teachings of “wahkotowin” (we are all related) to the cosmos, all living and non-living beings."
+    },
+    {
+      "name": "Sharon Loonskin",
+      "role": "presenter",
+      "title": "Bachelor of Education, University of Alberta",
+      "image": "SLoonskin.jpg",
+      "description": "Sharon Loonskin is from Calling Lake, Alberta. She is a mother of four beautiful children who have bestowed upon her eight blessings of grandchildren. She is a member of the Bigstone Cree Nation and believes in the Cree traditional ways of life. She was fortunate that her family still carried and passed on the ancestral knowledge to her. In her family two generations have attended residential schools and are survivors. She has volunteered in functions and events in her community traditional and non-traditional gatherings. Her educational journey has been a windy road beginning with Calling Lake School and four post-secondary institutions. She received a Bachelor of Education degree from the University of Alberta. Sharon’s experiences have empowered her to provide support in diverse areas for others on their journeys to know their roots and/or heal from past traumas. She considers it an honour to know her Cree heritage, history, knowledge, values, and beliefs."
+    },
+    {
+      "name": "Dr. Melissa Jay",
+      "role": "presenter",
+      "title": "Indigenous Director for the Canadian Counselling and Psychotherapy Association",
+      "image": "MJay.png",
+      "description": "Dr. Melissa Jay (she/her) is a Nehiyaw iskwew member of the Métis Nation of Alberta. As a registered psychologist, assistant professor, and director of Canmore Counselling, she is dedicated to her own healing journey. She uses her privilege to create paths towards trauma-informed, socially just, anti-oppressive support through integrating ancient wisdom traditions and psychology. As the current Indigenous Director for the Canadian Counselling and Psychotherapy Association, she is grateful to walk alongside Indigenous kin, across Turtle Island. She lives in Canmore with her spouse and rescue-turned-therapy dog, Lulu."
+    },
+    {
+      "name": "Dr. Michelle Pigeon",
+      "role": "presenter",
+      "title": "Associate Professor, Faculty of Education, Simon Fraser University",
+      "image": "MPidgeon.jpg",
+      "description": "Dr. Michelle Pidgeon, (Mi’kmaq ancestry) is the inaugural Associate Dean, Indigeneity  ʔək̓ʷstənəq ts'up'new̓ásentas and an associate professor in the Faculty of Education at Simon Fraser University.  Dr. Pidgeon is passionate about higher education, student services, and Indigeneity. Theoretically and methodologically, her work is guided by an Indigenous wholistic framework with the intentional goals of: 1) transforming the educational system for Indigenous peoples and 2) empowering the cultural integrity of all students. As a scholar with international reputation, she has over 35 publications ranging from peer-reviewed articles, book chapters, research reports, and has done 34 keynote addresses and other invited presentations. Her latest project, Understanding Indigenous ethics and wholism within academic and Aboriginal community research, was awarded a 2018 SSHRC Insight Grant for $270,000 over 5 years. She is a faculty-supporter/mentor of SAGE (Supporting Aboriginal Graduate Enhancement) network in BC and across Canada."
+    },
+    {
+      "name": "Dr. Carl Mika",
+      "role": "presenter",
+      "title": "Professor in Aotahi: School of Māori and Indigenous Studies, University of Canterbury",
+      "image": "CMika.jpg",
+      "description": "Carl Mika is Maori of the Tuhourangi iwi, and is a professor in Aotahi: School of Māori and Indigenous Studies, University of Canterbury. He has written several articles and chapters as well as books relating to Māori and Indigenous holistic philosophies, with a particular focus on their revitalisation within a colonised reality. Carl has experience teaching and researching in education and mātauranga Māori (Maori knowledge), the law, and global studies. He has held an adjunct professorship at RMIT and is involved in international projects that engage with Indigenous philosophy, including Sámi mánná jurddavázzin – Sámi Children as Thought Herders (Swedish Research Council); and Understanding Indigenous ethics and wholism within academic and Aboriginal community research settings (SSHRC, Canada). He is also Co-Lead (Maori and Pasifika thought) for an M.I.T convened (Prof. Chakanetsa Mavhunga) Graduate Super-Seminar on Global South Cosmologies and Epistemologies, Global South Cosmologies and Epistemologies Initiative (GSI)."
+    },
+    {
+      "name": "Dr. Sarah-Jane Tiakiwai",
+      "role": "presenter",
+      "title": "Deputy Vice-Chancellor Māori, University of Waikato",
+      "image": "STiakiwai.jpg",
+      "description": "Dr Sarah-Jane Tiakiwai is from the Te Rarawa and Waikato tribes from Aotearoa New Zealand. She is the Deputy Vice-Chancellor Māori at the University of Waikato and is Chair of Te Kāhui Amokura, a committee comprised of the Deputy Vice-Chancellor Māori or equivalent position across New Zealand’s 8 universities. Prior to taking up this appointment in April 2017, Sarah-Jane spent 7 years as the inaugural academic director for the Waikato-Tainui College for Research and Development, an indigenous tribal academic and research institution. Dr Tiakiwai has a background in and passion for iwi (tribal) education and development, with a particular focus on Māori student success in higher education. Sarah-Jane has worked in the wānanga and university sectors, holding a range of research, teaching and senior administrative and leadership positions. She has worked extensively in growing the capability and capacity of Māori and kaupapa Māori researchers, and is currently co-leading a project to build Māori research capability across the New Zealand university sector."
+    },
+    {
+      "name": "Joe Tobin",
+      "role": "presenter",
+      "title": "Graduate Student, Master of Arts, Counselling Psychology program, Simon Fraser University",
+      "image": "JTobin.jpg",
+      "description": "Joe Tobin is from a family of both Indigenous & settler heritage; he is a member a Nlaka’pamux First Nation living and working on unceded Coast Salish territories. Joe is currently a Simon Fraser University graduate student in the Master of Arts - Counselling Psychology program. Joe’s research for his program examines enabling factors for Indigenous knowledge and practices in counselling. Joe has been working as a research assistant in Michelle Pidgeon’s Indigenous Research Lab since 2019."
+    },
+    {
+      "name": "Mindy Ghag",
+      "role": "presenter",
+      "title": "Masters in Counselling Psychology, University of British Columbia",
+      "image": "MGhag.jpeg",
+      "description": "Mindy Ghag recently graduated with a master's degree in counselling psychology from the University of British Columbia, which is situated on the traditional, ancestral, unceded territory of the xʷməθkʷəy̓əm (Musqueam) First Nation. Her research interests include the intersections of colonialism, identity and mental health."
+    },
+    {
+      "name": "Donna Dunn",
+      "role": "presenter",
+      "title": "Senior Teacher at CEFA Early Learning",
+      "image": "DDunn.png",
+      "description": "Donna Dunn (she/her) is a settler who lives with her children and parents in Surrey, BC. She moved from the UK to Canada in 2014 where she graduated with her Bachelor's degree from Simon Fraser University and an Early Childhood Educator certificate from Sprott Shaw College. Donna currently works as a Senior teacher at CEFA Early Learning. She has worked part-time as an RA since 2017 and is hoping to return to study at Simon Fraser in the near future to undertake her Master's degree."
+    },
+    {
+      "name": "Andrea Leveille",
+      "role": "presenter",
+      "title": "Masters in Liberal Studies, Simon Fraser University",
+      "image": "Aleveille.jpg",
+      "description": "Andrea Leveille (she/her) is a settler and a grateful, uninvited visitor on the traditional, ancestral territories of the Kwantlen and Katzie peoples, more recently called Langley, British Columbia. She has just completed her Master’s degree in Liberal Studies at Simon Fraser University and her research focused on describing how outreach activities impact audience members’ desire to attend and advocate for attendance at arts events. She has worked with Dr. Michelle Pidgeon as a Research Assistant since 2018 and a Research Project Manager since 2019."
+    },
+    {
+      "name": "Chadwick Cowie",
+      "role": "presenter",
+      "title": "PhD Candidate, Department of Political Science, University of Alberta",
+      "image": "CCowie.jpg",
+      "description": "Chadwick (Chad) Cowie is from the Michi Saagiig Nishnaabeg community of Pamitaashkodeyong (Also known as Hiawatha First Nation). Currently, Chad is a PhD Candidate in the Department of Political Science at the University of Alberta; Chad’s research focuses on whether or not Indigenous peoples participating in Canada’s federal electoral process can bring forth change, decolonization, and reconciliation. Alongside Chad’s research, he is currently assisting the six Michi Saagiig Nishnaabeg communities with research regarding their historical and contemporary existence not only as individual communities but also as the Michi Saagiig Nishnaabeg nation as a whole. Alongside research in the Michi Saagiig Nishnaabeg Nation and Indigenous electoral participation, Chad also enjoys research in federalism, Indigenous governance, Settler-Indigenous relations, as well as Settler Provincial-Indigenous relations."
+    },
+    {
+      "name": "Dr. Bourque Bearskin",
+      "role": "presenter",
+      "title": "Associate Professor, Thompson Rivers University",
+      "image": "BBearskin.jpg",
+      "description": "Dr. Bourque Bearskin, RN, PhD, from Beaver Lake Cree Nation, Treaty 6 Territory, is an Associate Professor at Thompson Rivers University, located in the traditional unceded territory of the Tk'emlúps te Secwe̓pemc.  As the inaugural CIHR Chair holder in Indigenous Health Research for Nursing in British Columbia her research contributes to supporting community knowledge as a generative process in advancing Indigenous health. She is recognized for her relational, rights and strength-based research approach and is a leader in reconciling parallel pathways of traditional Indigenous health care in the context of community wellness. A former president of the Canadian Indigenous Nursing Association (CINA), she led organizational changes that focused on collaborative partnerships and mentorship of Indigenous nurses implementing cultural safety and security as key educational outcomes for improving nursing practice. A sur-thriver of the residential school and sixties scoop era, she maintains a solid connection to her community and culture. She became a Licensed Practical Nurse, went on to receive her Baccalaureate, Master of Science, and Doctor of Philosophy in Nursing from the University of Alberta. She was nominated into the Canadian Academy of Nurses and the American Academy of Nursing for her leadership in advancing Indigenous health nursing."
+    },
+    {
+      "name": "Dr. Cora Weber-Pillwax",
+      "role": "presenter",
+      "title": "Professor, Faculty of Education, University of Alberta",
+      "description": "Cora Weber Pillwax is a Métis grandmother and teacher from Calling Lake, a historical Metis community within Alberta. She acknowledges her greatest source of knowledge to be life lived within family and kinship. As a Professor in the Faculty of Education at the University of Alberta, Dr. Weber-Pillwax offers a highly-specialized knowledge born of the integration of Western formal schooling and Metis-Cree lived experience. She has served her people and communities as a formal educator, administrator, community leader, and development process facilitator. Her work lies in Indigenous peoples education where she supports Indigenous research methodologies, maintains integral connections between student wellbeing and learning, supports health research honouring the ‘parallel pathways’ of Indigenous health care, and promotes Indigenous languages, Métis history education, and Métis rights in Canada. Dr. Weber-Pillwax practices orality as a way of being, and a way of teaching and learning. She is also well published and a revered senior researcher. She has served as lead for major research projects and continues to mentor Indigenous faculty and graduate students engaged within the ancient knowledge systems of their own respective peoples. Her personal connections to Indigenous scholars, communities and students are extensive."
+    },
+    {
+      "name": "Melody Ninomiya",
+      "role": "presenter",
+      "title": "Assistant Professor, Health Sciences, Wilfrid Laurier University",
+      "image": "MNinomiya.jpg",
+      "description": "Melody Morton Ninomiya is a bi-cultural (Japanese and Swiss-German Mennonite) mother/sister/daughter/aunt/friend, researcher, teacher, and lover of creating textile art. She was born in on the Haldimand Tract in Kitchener-Waterloo (Ontario), raised in Kobe (Japan), studied and taught high school in Ontario, moved to St. John’s (Newfoundland and Labrador) with her partner to work in the not-for-profit sector doing conflict resolution and raise their three children, and eventually moved back to Kitchener-Waterloo after completing a PhD in community health. After working as a postdoctoral fellow at Well Living House in Toronto and the Centre for Addiction and Mental Health, Melody started her work at Laurier as an assistant professor in 2019, in the Health Sciences Department of the Faculty of Science. Much of her research work to date is on projects initiated and driven by First Nations in parts of BC, NWT, ON, and NL – in the area of community mental wellness, health and wellness asset mapping, and/or mental health, addictions, and healthy pregnancies. Melody also does research in the area of knowledge translation/mobilization as well as fetal alcohol spectrum disorder (FASD) prevention, education, and supports. She is invested in learning, practicing, teaching, and promoting ways of conducting research that address human rights to wellbeing and self-determination."
+    },
+    {
+      "name": "Diane Simon",
+      "role": "presenter",
+      "title": "Masters of Public Health",
+      "image": "DSimon.jpg",
+      "description": "Diane Simon is Mi'kmaw and a registered member of the Fort Folly First Nation. She is a trained midwife and recent graduate with a Master of Public Health specializing in Health Policy. Her areas of interest include community health, women's health, sexual and reproductive health, the environment, harm reduction and prisoner justice/abolition. She remains actively engaged in community led initiatives and activism. She is an avid runner, enjoys quilting, knitting and being crafty and is also a busy mom of three boys."
+    },
+    {
+      "name": "Nicole Burns",
+      "role": "presenter",
+      "title": "Research Assistant and Project Coordinator, Interdisciplinary & Indigenous Pathways to Wellness research group, Health Sciences Department, Wilfrid Laurier University",
+      "image": "NBurns.jpg",
+      "description": "Nicole Burns is a Settler to Turtle Island and has been engaged in community-led capacity building for the last several years. Nicole graduated with a master's degree from Wilfrid Laurier's Community Psychology program and is currently a Research Assistant and Project Coordinator for the Interdisciplinary & Indigenous Pathways to Wellness research group in the Health Sciences Department of WLU. Nicole specializes in program evaluation and has conducted formative and process evaluations with communities and government members across diverse sectors. She is passionate about rights-based work and is starting a PhD in the fall at the Balsillie School of International Affairs. "
     }
   ]
 }
