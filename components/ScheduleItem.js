@@ -10,17 +10,18 @@ export default class ScheduleItem extends Component {
   }
 
   render() {
-    const { startTime, endTime, title, presenters } = this.props;
+    const { startTime, endTime, title, presenters, abstract} = this.props;
     let Time_Simple_Offset = { ...DateTime.TIME_SIMPLE, timeZoneName: "short" };
     return (
       <Card className={`${styles["schedule-card"]} h-100 pb-4`}>
         <h4 className={`${styles["schedule-header"]}`}>{title}</h4>
         <div className="card-body">
           {presenters ? (
-            <span className={`${styles["schedule-presenters"]}`}>
+            <div className={`${styles["schedule-presenters"]}`}>
               Presented by: {presenters}
-            </span>
+            </div>
           ) : null}
+          {abstract ? (<div className={`${styles["schedule-abstract"]} pt-4`}><a href={`/abstracts/${abstract}`}>Abstract</a></div>) : (null)}
         </div>
         {Intl.DateTimeFormat().resolvedOptions().timeZone ==
         "America/Edmonton" ? (
