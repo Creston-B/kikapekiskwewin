@@ -12,39 +12,10 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .user-card {
-    width: 60vw;
-  }
-
-  .user-card-focus {
-    z-index: 100;
-    transform: scale(1.2);
-  }
-  .user-card-detail-text {
-    font-size: 1rem;
-  }
-}
 
 @media screen and (max-width: 576px) {
 
   .schedule-card {
     width: 80vw;
-  }
-  .user-card-detail-text {
-    font-size: 0.9rem;
-  }
-}
-
-@media screen and (max-width: 450px) {
-
-  .user-card-detail-text {
-    font-size: 0.8rem;
-  }
-}
-
-@media screen and (max-width: 380px) {
-  .user-card-detail-text {
-    font-size: 0.76rem;
   }
 }
