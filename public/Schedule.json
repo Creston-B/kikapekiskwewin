@@ -1,19 +1,18 @@
 {
   "items": [
     {
-      "title": "Understanding relationality in research from the perspective of Cree women",
-      "startTime": "2022-06-14T09:35:00-06:00",
-      "endTime": "2022-06-14T10:30:00-06:00",
-      "presenters": "Dr. Josie Auger, Sharon Loonskin, Lorraine Cardinal, and Angela James",
-      "abstract": "",
-      "confirmed": "true"
-    },
-    {
       "title": "Prayer & Opening",
       "startTime": "2022-06-14T09:00:00-06:00",
       "endTime": "2022-06-14T09:30:00-06:00",
-      "presenters": "Lorraine Cardinal (Cree Cultural Practicioner), Manijeh Mannani (Dean of the Faculty of Humanities and Social Sciences, Athabasca University)",
-      "abstract": "",
+      "presenters": "Lorraine Cardinal (Cree Cultural Practicioner), Manijeh Mannani (Dean of the Faculty of Humanities and Social Sciences, Athabasca University), Organizing Team",
+      "confirmed": "true"
+    },
+    {
+      "title": "Understanding Relationality in Research from the Perspective of Cree Women",
+      "startTime": "2022-06-14T09:35:00-06:00",
+      "endTime": "2022-06-14T10:30:00-06:00",
+      "presenters": "Dr. Josie Auger, Sharon Loonskin, Lorraine Cardinal, and Angela James",
+      "abstract": "UnderstandingRelationalityAbstract.pdf",
       "confirmed": "true"
     },
     {
@@ -23,11 +22,11 @@
       "confirmed": "true"
     },
     {
-      "title": "Nurturing relationship and dialogue with University Research Ethics Boards",
+      "title": "Nurturing Relationship and Dialogue with University Research Ethics Boards",
       "startTime": "2022-06-14T13:00:00-06:00",
       "endTime": "2022-06-14T13:30:00-06:00",
       "presenters": "Drs. Melissa Jay & Josie Auger",
-      "abstract": "",
+      "abstract": "NurturingRelationshipAbstract.pdf",
       "confirmed": "true"
     },
     {
@@ -39,11 +38,11 @@
       "confirmed": "false"
     },
     {
-      "title": "“Wholism is everything” ~ Deepening connections of Indigenous culturally-informed ethics within research settings.",
+      "title": "“Wholism is everything” ~ Deepening Connections of Indigenous Culturally-Informed Ethics within Research Settings",
       "startTime": "2022-06-14T14:30:00-06:00",
       "endTime": "2022-06-14T15:30:00-06:00",
       "presenters": "Drs. Michelle Pigeon, Carl Mika, Sarah Jane Tiakiwai, et al",
-      "abstract": "",
+      "abstract": "WholismIsEverything.pdf",
       "confirmed": "true"
     },
     {
@@ -62,14 +61,13 @@
       "title": "Welcome & Greeting",
       "startTime": "2022-06-15T09:00:00-06:00",
       "endTime": "2022-06-15T09:05:00-06:00",
-      "presenters": "Dr. Andrew Perrin (Associate Vice President of Research, Athabasca Unviersity)",
+      "presenters": "Dr. Andrew Perrin (Associate Vice President of Research, Athabasca University)",
       "confirmed": "true"
     },
     {
       "title": "Introduction of Day & Schedule Review",
       "startTime": "2022-06-15T09:05:00-06:00",
       "endTime": "2022-06-15T09:10:00-06:00",
-      "presenters": "Dr. Nisha Nath, Dr. Josie Auger, Dr. Carolyn Greene & Makayla LeSann",
       "confirmed": "true"
     },
     {
@@ -85,7 +83,7 @@
       "startTime": "2022-06-15T09:35:00-06:00",
       "endTime": "2022-06-15T09:55:00-06:00",
       "presenters": "Dr. Tiffany Prete",
-      "abstract": "",
+      "abstract": "BeadWorkingAbstract.Pdf",
       "confirmed": "true"
     },
     {
@@ -93,7 +91,7 @@
       "startTime": "2022-06-15T10:05:00-06:00",
       "endTime": "2022-06-15T10:30:00-06:00",
       "presenters": "Chadwick Cowie",
-      "abstract": "",
+      "abstract": "ResearchDataAbstract.pdf",
       "confirmed": "true"
     },
     {
@@ -101,7 +99,7 @@
       "startTime": "2022-06-15T10:30:00-06:00",
       "endTime": "2022-06-15T10:55:00-06:00",
       "presenters": "Erica Neeganagwedgin",
-      "abstract": "",
+      "abstract": "EmbodyingSelfDetermination.pdf",
       "confirmed": "true"
     },
     {
@@ -115,7 +113,7 @@
       "startTime": "2022-06-15T13:00:00-06:00",
       "endTime": "2022-06-15T14:00:00-06:00",
       "presenters": "Dr. Cora Weber-Pillwax, Dr. Lisa Bourque Bearskin, Dr. Melody Morton Ninomiya et al",
-      "abstract": "",
+      "abstract": "MoralHorizonsAbstract.pdf",
       "confirmed": "true"
     },
     {
@@ -123,11 +121,11 @@
       "startTime": "2022-06-15T14:30:00-06:00",
       "endTime": "2022-06-15T15:00:00-06:00",
       "presenters": "Dr. Michelle Kennedy",
-      "abstract": "",
+      "abstract": "GiilangBundyiAbstract.pdf",
       "confirmed": "true"
     },
     {
-      "title": "Operationalizing self-determination through a community REB",
+      "title": "Operationalizing Self-Determination Through a Community REB",
       "startTime": "2022-06-15T15:00:00-06:00",
       "endTime": "2022-06-15T15:30:00-06:00",
       "presenters": "Michelle Kennedy",

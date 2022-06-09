@@ -26,6 +26,7 @@ export default class ScheduleList extends Component {
                 endTime={DateTime.fromISO(item.endTime)}
                 title={item.title}
                 presenters={item.presenters}
+                abstract={item.abstract}
               />
             </Col>
           ))}

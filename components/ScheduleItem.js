@@ -11,36 +11,44 @@ export default class ScheduleItem extends Component {
 
   render() {
     const { startTime, endTime, title, presenters } = this.props;
+    let Time_Simple_Offset = { ...DateTime.TIME_SIMPLE, timeZoneName: "short" };
     return (
-      <Card className={`${styles["schedule-card"]}`}>
+      <Card className={`${styles["schedule-card"]} h-100 pb-4`}>
         <h4 className={`${styles["schedule-header"]}`}>{title}</h4>
+        <div className="card-body">
+          {presenters ? (
+            <span className={`${styles["schedule-presenters"]}`}>
+              Presented by: {presenters}
+            </span>
+          ) : null}
+        </div>
         {Intl.DateTimeFormat().resolvedOptions().timeZone ==
         "America/Edmonton" ? (
-          <div>
-            <span className={`${styles["schedule-time"]}`}>
-              {startTime.toLocaleString(DateTime.TIME_WITH_SHORT_OFFSET)}
+          <div className="card-footer">
+            <span className={`${styles["schedule-time"]} fw-bold`}>
+              {startTime.toLocaleString(DateTime.TIME_SIMPLE)}
               {" - "}
-              {endTime.toLocaleString(DateTime.TIME_WITH_SHORT_OFFSET)}
+              {endTime.toLocaleString(DateTime.TIME_SIMPLE)}
             </span>
           </div>
         ) : (
-          <div>
-            <span className={`${styles["schedule-time"]}`}>
+          <div className="card-footer">
+            <span className={`${styles["schedule-time"]} fw-bold`}>
               {startTime.toLocaleString({
                 timeZone: "America/Edmonton",
-                ...DateTime.TIME_WITH_SHORT_OFFSET,
+                ...Time_Simple_Offset,
               })}
               {" - "}
               {endTime.toLocaleString({
                 timeZone: "America/Edmonton",
-                ...DateTime.TIME_WITH_SHORT_OFFSET,
+                ...Time_Simple_Offset,
               })}
             </span>
             <br />
-            <span className={`${styles["schedule-time"]}`}>
-              {startTime.toLocaleString(DateTime.TIME_WITH_SHORT_OFFSET)}
+            <span className={`${styles["schedule-time"]} text-muted`}>
+              {startTime.toLocaleString(Time_Simple_Offset)}
               {" - "}
-              {endTime.toLocaleString(DateTime.TIME_WITH_SHORT_OFFSET)}
+              {endTime.toLocaleString(Time_Simple_Offset)}
             </span>
           </div>
         )}
