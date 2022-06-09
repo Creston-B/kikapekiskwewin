@@ -2,101 +2,149 @@
   "items": [
     {
       "title": "Understanding relationality in research from the perspective of Cree women",
-      "startTime": "2022-06-14T09:45:00-06:00",
+      "startTime": "2022-06-14T09:35:00-06:00",
       "endTime": "2022-06-14T10:30:00-06:00",
-      "presenters": "Dr. Josie Auger, Sharon Loonskin, Lorraine Cardinal, and Angela James - Podcast style w/ Myra moderating "
+      "presenters": "Dr. Josie Auger, Sharon Loonskin, Lorraine Cardinal, and Angela James",
+      "abstract": "",
+      "confirmed": "true"
     },
     {
       "title": "Prayer & Opening",
       "startTime": "2022-06-14T09:00:00-06:00",
-      "endTime": "2022-06-14T09:45:00-06:00",
-      "presenters": "Lorraine Cardinal - Cree Cultural Practicioner, Manijeh Mannani (Dean FHSS)"
+      "endTime": "2022-06-14T09:30:00-06:00",
+      "presenters": "Lorraine Cardinal (Cree Cultural Practicioner), Manijeh Mannani (Dean of the Faculty of Humanities and Social Sciences, Athabasca University)",
+      "abstract": "",
+      "confirmed": "true"
     },
     {
       "title": "Breakouts",
       "startTime": "2022-06-14T11:00:00-06:00",
-      "endTime": "2022-06-14T12:00:00-06:00"
+      "endTime": "2022-06-14T12:00:00-06:00",
+      "confirmed": "true"
     },
     {
-      "title": "Nurturing relationship and dialogue with University Research Ethics Boards.",
-      "startTime": "2022-06-14T13:15:00-06:00",
-      "endTime": "2022-06-14T13:45:00-06:00",
-      "presenters": "Drs.  Melissa Jay & Josie Auger"
+      "title": "Nurturing relationship and dialogue with University Research Ethics Boards",
+      "startTime": "2022-06-14T13:00:00-06:00",
+      "endTime": "2022-06-14T13:30:00-06:00",
+      "presenters": "Drs. Melissa Jay & Josie Auger",
+      "abstract": "",
+      "confirmed": "true"
     },
     {
       "title": "Reclaiming Space for our Knowledges: Conversations on Indigenous Research and Ethics",
       "startTime": "2022-06-14T13:45:00-06:00",
       "endTime": "2022-06-14T14:15:00-06:00",
-      "presenters": "Dr. Jessie King"
+      "presenters": "Dr. Jessie King",
+      "abstract": "",
+      "confirmed": "false"
     },
     {
       "title": "“Wholism is everything” ~ Deepening connections of Indigenous culturally-informed ethics within research settings.",
       "startTime": "2022-06-14T14:30:00-06:00",
       "endTime": "2022-06-14T15:30:00-06:00",
-      "presenters": "Pidgeon et al."
+      "presenters": "Drs. Michelle Pigeon, Carl Mika, Sarah Jane Tiakiwai, et al",
+      "abstract": "",
+      "confirmed": "true"
+    },
+    {
+      "title": "Breakouts",
+      "startTime": "2022-06-14T15:30:00-06:00",
+      "endTime": "2022-06-14T16:15:00-06:00",
+      "confirmed": "true"
     },
     {
       "title": "Day's Closing Remarks",
-      "startTime": "2022-06-14T16:30:00-06:00",
-      "endTime": "2022-06-14T16:45:00-06:00"
+      "startTime": "2022-06-14T16:15:00-06:00",
+      "endTime": "2022-06-14T16:30:00-06:00",
+      "confirmed": "true"
     },
     {
       "title": "Welcome & Greeting",
       "startTime": "2022-06-15T09:00:00-06:00",
-      "endTime": "2022-06-15T09:10:00-06:00",
-      "presenters": "Dr. Andrew Perrin - Associate Vice President of Research, Athabasca Unviersity"
+      "endTime": "2022-06-15T09:05:00-06:00",
+      "presenters": "Dr. Andrew Perrin (Associate Vice President of Research, Athabasca Unviersity)",
+      "confirmed": "true"
     },
     {
-      "title": "A seven step land-based Indigenous research method presentation proposal",
+      "title": "Introduction of Day & Schedule Review",
+      "startTime": "2022-06-15T09:05:00-06:00",
+      "endTime": "2022-06-15T09:10:00-06:00",
+      "presenters": "Dr. Nisha Nath, Dr. Josie Auger, Dr. Carolyn Greene & Makayla LeSann",
+      "confirmed": "true"
+    },
+    {
+      "title": "A Seven Step Land-Based Indigenous Research Method Presentation Proposal",
       "startTime": "2022-06-15T09:10:00-06:00",
       "endTime": "2022-06-15T09:30:00-06:00",
-      "presenters": "Dr. Andrew Judge"
+      "presenters": "Dr. Andrew Judge",
+      "abstract": "",
+      "confirmed": "false"
     },
     {
-      "title": "Beadworking as an Indigenous Research Paradigm",
-      "startTime": "2022-06-15T09:30:00-06:00",
-      "endTime": "2022-06-15T10:00:00-06:00",
-      "presenters": "Tiffany Prete"
+      "title": "Bead Working as an Indigenous Research Paradigm",
+      "startTime": "2022-06-15T09:35:00-06:00",
+      "endTime": "2022-06-15T09:55:00-06:00",
+      "presenters": "Dr. Tiffany Prete",
+      "abstract": "",
+      "confirmed": "true"
     },
     {
       "title": "Research, Data, & Indigenous Ways of Knowing",
-      "startTime": "2022-06-15T10:10:00-06:00",
+      "startTime": "2022-06-15T10:05:00-06:00",
       "endTime": "2022-06-15T10:30:00-06:00",
-      "presenters": "Chadwick Cowie"
+      "presenters": "Chadwick Cowie",
+      "abstract": "",
+      "confirmed": "true"
     },
     {
       "title": "Embodying Self-Determination through Everyday Indigenous Research Ethics",
       "startTime": "2022-06-15T10:30:00-06:00",
-      "endTime": "2022-06-15T11:00:00-06:00",
-      "presenters": "Erica Neeganagwedgin"
+      "endTime": "2022-06-15T10:55:00-06:00",
+      "presenters": "Erica Neeganagwedgin",
+      "abstract": "",
+      "confirmed": "true"
+    },
+    {
+      "title": "Breakout Sessions",
+      "startTime": "2022-06-15T11:15:00-06:00",
+      "endTime": "2022-06-15T12:00:00-06:00",
+      "confirmed": "true"
     },
     {
       "title": "Moral Horizons and Indigenous Ethics",
-      "startTime": "2022-06-15T13:15:00-06:00",
-      "endTime": "2022-06-15T14:15:00-06:00",
-      "presenters": "Dr.'s Cora Weber-Pillwax, Lisa Bourque Bearskin, Melody Morton-Ninomiya et all"
+      "startTime": "2022-06-15T13:00:00-06:00",
+      "endTime": "2022-06-15T14:00:00-06:00",
+      "presenters": "Dr. Cora Weber-Pillwax, Dr. Lisa Bourque Bearskin, Dr. Melody Morton Ninomiya et al",
+      "abstract": "",
+      "confirmed": "true"
     },
     {
-      "title": "Giilang Bundyi (sharing stories) of Aboriginal and Torres Strait Islander health research ethics implementation",
+      "title": "Giilang Bundyi (sharing stories) of Aboriginal and Torres Strait Islander Health Research Ethics Implementation",
       "startTime": "2022-06-15T14:30:00-06:00",
       "endTime": "2022-06-15T15:00:00-06:00",
-      "presenters": "Michelle Kennedy "
+      "presenters": "Dr. Michelle Kennedy",
+      "abstract": "",
+      "confirmed": "true"
     },
     {
       "title": "Operationalizing self-determination through a community REB",
       "startTime": "2022-06-15T15:00:00-06:00",
       "endTime": "2022-06-15T15:30:00-06:00",
-      "presenters": "Michelle Kennedy "
+      "presenters": "Michelle Kennedy",
+      "abstract": "",
+      "confirmed": "false"
     },
     {
       "title": "Breakout Sessions",
-      "startTime": "2022-06-15T15:30:00-06:00",
-      "endTime": "2022-06-15T16:30:00-06:00"
+      "startTime": "2022-06-15T15:15:00-06:00",
+      "endTime": "2022-06-15T16:15:00-06:00",
+      "confirmed": "true"
     },
     {
       "title": "Closing Remarks",
-      "startTime": "2022-06-15T16:30:00-06:00",
-      "endTime": "2022-06-15T17:00:00-06:00"
+      "startTime": "2022-06-15T16:15:00-06:00",
+      "endTime": "2022-06-15T16:45:00-06:00",
+      "confirmed": "true"
     }
   ]
 }

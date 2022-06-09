@@ -8,6 +8,7 @@ export default class ScheduleList extends Component {
   render() {
     const { scheduleData, day } = this.props;
     const items = scheduleData.items
+      .filter((a) => a.confirmed == "true")
       .filter((a) => DateTime.fromISO(a.startTime).toFormat("d") == day)
       .sort((a, b) => (a.startTime > b.startTime ? 1 : -1));
 
