@@ -35,7 +35,7 @@ export default class FooterComponent extends Component {
                 kikapekiskwewin is supported in part by Athabasca University
                 <Image
                   className="pt-4 align-bottom"
-                  src={"/AU_Logo_Horiz_Trans.png"}
+                  src={"/AU_Logo_Horiz_trans.png"}
                   layout="fill"
                   objectFit="contain"
                   alt="AU Logo"

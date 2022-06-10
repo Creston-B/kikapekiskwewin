@@ -3,13 +3,19 @@
     {
       "title": "Prayer & Opening",
       "startTime": "2022-06-14T09:00:00-06:00",
-      "endTime": "2022-06-14T09:30:00-06:00",
+      "endTime": "2022-06-14T09:25:00-06:00",
       "presenters": "Lorraine Cardinal (Cree Cultural Practicioner), Manijeh Mannani (Dean of the Faculty of Humanities and Social Sciences, Athabasca University), Organizing Team",
       "confirmed": "true"
     },
     {
+      "title": "Opening Comments from President Peter Scott",
+      "startTime": "2022-06-14T09:25:00-06:00",
+      "endTime": "2022-06-14T09:30:00-06:00",
+      "confirmed": "true"
+    },
+    {
       "title": "Understanding Relationality in Research from the Perspective of Cree Women",
-      "startTime": "2022-06-14T09:35:00-06:00",
+      "startTime": "2022-06-14T09:30:00-06:00",
       "endTime": "2022-06-14T10:30:00-06:00",
       "presenters": "Dr. Josie Auger, Sharon Loonskin, Lorraine Cardinal, and Angela James",
       "abstract": "UnderstandingRelationalityAbstract.pdf",
@@ -19,6 +25,12 @@
       "title": "Breakouts",
       "startTime": "2022-06-14T11:00:00-06:00",
       "endTime": "2022-06-14T12:00:00-06:00",
+      "confirmed": "true"
+    },
+    {
+      "title": "Lunch Break and Short Video Presentation",
+      "startTime": "2022-06-14T12:00:00-06:00",
+      "endTime": "2022-06-14T11:00:00-06:00",
       "confirmed": "true"
     },
     {
