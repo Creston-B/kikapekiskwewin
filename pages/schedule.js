@@ -15,13 +15,13 @@ export default function Schedule({scheduleData}) {
       </Head>
       <main className={`${styles["main"]}`}>
         <Container >
-          <h1>June 14</h1>
+          <h1>June 14, 2022</h1>
           <Row>
             <Col>
             <ScheduleList scheduleData={scheduleData} day={"14"}/>
             </Col>
           </Row>
-          <h1>June 15</h1>
+          <h1>June 15, 2022</h1>
           <Row>
             <Col>
             <ScheduleList scheduleData={scheduleData} day={"15"}/>
