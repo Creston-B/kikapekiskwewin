@@ -8,6 +8,10 @@ $ra-primary: $ra-red;
 $ra-secondary: $ra-blue;
 $bg-col: #f7eddc;
 
+$ra-yellow:	#FAFA33;
+$ra-lightblue: lightblue;
+$ra-fern: #4F7942;
+
 @mixin main-background {
   background-image: url("../public/noisy-texture-100x100d.png");
   background-attachment: fixed;

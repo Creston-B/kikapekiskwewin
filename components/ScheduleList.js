@@ -27,6 +27,7 @@ export default class ScheduleList extends Component {
                 title={item.title}
                 presenters={item.presenters}
                 abstract={item.abstract}
+                type={item.type}
               />
             </Col>
           ))}
