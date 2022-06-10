@@ -1,44 +1,62 @@
 {
   "items": [
     {
-      "title": "Prayer & Opening",
+      "title": "Welcome and Introductions",
       "startTime": "2022-06-14T09:00:00-06:00",
-      "endTime": "2022-06-14T09:25:00-06:00",
-      "presenters": "Lorraine Cardinal (Cree Cultural Practicioner), Manijeh Mannani (Dean of the Faculty of Humanities and Social Sciences, Athabasca University), Organizing Team",
-      "confirmed": "true"
-    },
-    {
-      "title": "Opening Comments from President Peter Scott",
-      "startTime": "2022-06-14T09:25:00-06:00",
       "endTime": "2022-06-14T09:30:00-06:00",
+      "presenters": "Dr. Josie Auger, Elder Lorraine Cardinal, Manijeh Mannani (Dean of the Faculty of Humanities and Social Sciences, Athabasca University), Dr. Peter Scott (President of Athabasca University), Makayla LeSann",
+      "type": "bookend",
       "confirmed": "true"
     },
     {
-      "title": "Understanding Relationality in Research from the Perspective of Cree Women",
+      "title": "MORNING THEME: It all Starts with Community",
+      "startTime": "2022-06-14T09:29:59-06:00",
+      "type": "theme",
+      "confirmed": "true"
+    },
+    {
+      "title": "Understanding relationality in research from the perspective of Cree women",
       "startTime": "2022-06-14T09:30:00-06:00",
-      "endTime": "2022-06-14T10:30:00-06:00",
+      "endTime": "2022-06-14T10:45:00-06:00",
       "presenters": "Dr. Josie Auger, Sharon Loonskin, Lorraine Cardinal, and Angela James",
       "abstract": "UnderstandingRelationalityAbstract.pdf",
+      "type": "presentation",
       "confirmed": "true"
     },
     {
-      "title": "Breakouts",
+      "title": "Break",
+      "startTime": "2022-06-14T10:45:00-06:00",
+      "endTime": "2022-06-14T11:00:00-06:00",
+      "type": "break",
+      "confirmed": "true"
+    },
+    {
+      "title": "Breakout Session",
       "startTime": "2022-06-14T11:00:00-06:00",
       "endTime": "2022-06-14T12:00:00-06:00",
+      "type": "breakout",
       "confirmed": "true"
     },
     {
-      "title": "Lunch Break and Short Video Presentation",
+      "title": "Lunch Break. In-person walk to Friendship Centre.",
       "startTime": "2022-06-14T12:00:00-06:00",
-      "endTime": "2022-06-14T11:00:00-06:00",
+      "endTime": "2022-06-14T13:15:00-06:00",
+      "type": "break",
       "confirmed": "true"
     },
     {
-      "title": "Nurturing Relationship and Dialogue with University Research Ethics Boards",
-      "startTime": "2022-06-14T13:00:00-06:00",
-      "endTime": "2022-06-14T13:30:00-06:00",
-      "presenters": "Drs. Melissa Jay & Josie Auger",
+      "title": "AFTERNOON THEME: Developing Relationships in Research",
+      "startTime": "2022-06-14T13:14:59-06:00",
+      "type": "theme",
+      "confirmed": "true"
+    },
+    {
+      "title": "Nurturing relationship and dialogue with University Research Ethics Boards",
+      "startTime": "2022-06-14T13:15:00-06:00",
+      "endTime": "2022-06-14T14:15:00-06:00",
+      "presenters": "Dr. Melissa Jay and Dr. Josie Auger",
       "abstract": "NurturingRelationshipAbstract.pdf",
+      "type": "presentation",
       "confirmed": "true"
     },
     {
@@ -46,40 +64,61 @@
       "startTime": "2022-06-14T13:45:00-06:00",
       "endTime": "2022-06-14T14:15:00-06:00",
       "presenters": "Dr. Jessie King",
-      "abstract": "",
-      "confirmed": "false"
+      "abstract": "ReclaimingSpaceAbstract.pdf",
+      "type": "presentation",
+      "confirmed": "true"
     },
     {
-      "title": "“Wholism is everything” ~ Deepening Connections of Indigenous Culturally-Informed Ethics within Research Settings",
+      "title": "Break",
+      "startTime": "2022-06-14T14:15:00-06:00",
+      "endTime": "2022-06-14T14:30:00-06:00",
+      "type": "break",
+      "confirmed": "true"
+    },
+    {
+      "title": "“Wholism is everything” ~ Deepening Connections of Indigenous Culturally-Informed Ethics within Research Settings. Keynote and Q&A.",
       "startTime": "2022-06-14T14:30:00-06:00",
       "endTime": "2022-06-14T15:30:00-06:00",
-      "presenters": "Drs. Michelle Pigeon, Carl Mika, Sarah Jane Tiakiwai, et al",
+      "presenters": "Dr. Michelle Pidgeon (Simon Fraser University), Dr. Carl Mika (University of Otago), Dr. Sarah Jane Tiakiwai (University of Waikato), Joe Tobin (SFU), Mindy Ghag (SFU), Donna Dunn (SFU), Andrea Leveille (SFU), and Karen Johnson (SFU)",
       "abstract": "WholismIsEverythingAbstract.pdf",
+      "type": "presentation",
       "confirmed": "true"
     },
     {
-      "title": "Breakouts",
+      "title": "Breakout session with Indigenous presenters and guests",
       "startTime": "2022-06-14T15:30:00-06:00",
-      "endTime": "2022-06-14T16:15:00-06:00",
-      "confirmed": "true"
-    },
-    {
-      "title": "Day's Closing Remarks",
-      "startTime": "2022-06-14T16:15:00-06:00",
       "endTime": "2022-06-14T16:30:00-06:00",
+      "type": "breakout",
       "confirmed": "true"
     },
     {
-      "title": "Welcome & Greeting",
+      "title": "Support space with Dr. Melissa Jay (virtual) and Sharon Loonskin (in-person)",
+      "startTime": "2022-06-14T16:30:00-06:00",
+      "endTime": "2022-06-14T17:00:00-06:00",
+      "type": "bookend",
+      "confirmed": "true"
+    },
+    {
+      "title": "Welcome",
       "startTime": "2022-06-15T09:00:00-06:00",
-      "endTime": "2022-06-15T09:05:00-06:00",
-      "presenters": "Dr. Andrew Perrin (Associate Vice President of Research, Athabasca University)",
+      "endTime": "2022-06-15T09:10:00-06:00",
+      "presenters": "Chief Billy Joe Laboucan, Treaty 8",
+      "type": "bookend",
       "confirmed": "true"
     },
     {
-      "title": "Introduction of Day & Schedule Review",
-      "startTime": "2022-06-15T09:05:00-06:00",
-      "endTime": "2022-06-15T09:10:00-06:00",
+      "title": "MORNING THEME: Ways of Knowing and Doing Research",
+      "startTime": "2022-06-15T09:09:59-06:00",
+      "type": "theme",
+      "confirmed": "true"
+    },
+    {
+      "title": "Presentation",
+      "startTime": "2022-06-15T09:10:00-06:00",
+      "endTime": "2022-06-15T09:35:00-06:00",
+      "presenters": "To be confirmed",
+      "abstract": "",
+      "type": "presentation",
       "confirmed": "true"
     },
     {
@@ -88,44 +127,99 @@
       "endTime": "2022-06-15T09:30:00-06:00",
       "presenters": "Dr. Andrew Judge",
       "abstract": "",
+      "type": "presentation",
       "confirmed": "false"
     },
     {
-      "title": "Bead Working as an Indigenous Research Paradigm",
+      "title": "Beadworking as an Indigenous Research Paradigm",
       "startTime": "2022-06-15T09:35:00-06:00",
-      "endTime": "2022-06-15T09:55:00-06:00",
+      "endTime": "2022-06-15T10:00:00-06:00",
       "presenters": "Dr. Tiffany Prete",
       "abstract": "BeadWorkingAbstract.Pdf",
+      "type": "presentation",
+      "confirmed": "true"
+    },
+    {
+      "title": "Break",
+      "startTime": "2022-06-15T10:00:00-06:00",
+      "endTime": "2022-06-15T10:05:00-06:00",
+      "type": "break",
       "confirmed": "true"
     },
     {
       "title": "Research, Data, & Indigenous Ways of Knowing",
       "startTime": "2022-06-15T10:05:00-06:00",
       "endTime": "2022-06-15T10:30:00-06:00",
-      "presenters": "Chadwick Cowie",
+      "presenters": "Professor Chadwick Cowie",
       "abstract": "ResearchDataAbstract.pdf",
+      "type": "presentation",
       "confirmed": "true"
     },
     {
       "title": "Embodying Self-Determination through Everyday Indigenous Research Ethics",
       "startTime": "2022-06-15T10:30:00-06:00",
       "endTime": "2022-06-15T10:55:00-06:00",
-      "presenters": "Erica Neeganagwedgin",
+      "presenters": "Dr. Erica Neeganagwedgin",
       "abstract": "EmbodyingSelfDeterminationAbstract.pdf",
+      "type": "presentation",
       "confirmed": "true"
     },
     {
-      "title": "Breakout Sessions",
+      "title": "Break",
+      "startTime": "2022-06-15T10:55:00-06:00",
+      "endTime": "2022-06-15T11:15:00-06:00",
+      "type": "break",
+      "confirmed": "true"
+    },
+    {
+      "title": "Breakout Session 3",
+      "groups": [
+        {
+          "group": "Group 1: Cowie & Nath"
+        },
+        {
+          "group": "Group 2: Prete & Auger"
+        },
+        {
+          "group": "Group 3: Neeganagwedgin & Tait"
+        },
+        {
+          "group": "Group 4: To be confirmed"
+        }
+      ],
       "startTime": "2022-06-15T11:15:00-06:00",
       "endTime": "2022-06-15T12:00:00-06:00",
+      "type": "breakout groups",
       "confirmed": "true"
     },
     {
-      "title": "Moral Horizons and Indigenous Ethics",
-      "startTime": "2022-06-15T13:00:00-06:00",
-      "endTime": "2022-06-15T14:00:00-06:00",
-      "presenters": "Dr. Cora Weber-Pillwax, Dr. Lisa Bourque Bearskin, Dr. Melody Morton Ninomiya et al",
+      "title": "AFTERNOON THEME: The Culturally Relevant Ways are the New Ways",
+      "startTime": "2022-06-15T11:59:59-06:00",
+      "type": "theme",
+      "confirmed": "true"
+    },
+    {
+      "title": "Moral Horizons of Indigenous Ethics: Transforming Systemic Change. Panel Discussion and Q&A.",
+      "startTime": "2022-06-15T12:00:00-06:00",
+      "endTime": "2022-06-15T13:00:00-06:00",
+      "presenters": "Dr. Cora Weber-Pillwax, Diane Simon, Nicole Burns, Dr. Lisa Bourque Bearskin, Dr. Melody Morton Ninomiya",
       "abstract": "MoralHorizonsAbstract.pdf",
+      "type": "presentation",
+      "confirmed": "true"
+    },
+    {
+      "title": "Welcome",
+      "startTime": "2022-06-15T13:00:00-06:00",
+      "endTime": "2022-06-15T13:15:00-06:00",
+      "presenters": "Dr. Andrew Perrin, Associate VP Research, Athabasca University",
+      "type": "bookend",
+      "confirmed": "true"
+    },
+    {
+      "title": "Lunch",
+      "startTime": "2022-06-15T13:15:00-06:00",
+      "endTime": "2022-06-15T14:30:00-06:00",
+      "type": "break",
       "confirmed": "true"
     },
     {
@@ -134,26 +228,23 @@
       "endTime": "2022-06-15T15:00:00-06:00",
       "presenters": "Dr. Michelle Kennedy",
       "abstract": "GiilangBundyiAbstract.pdf",
+      "type": "presentation",
       "confirmed": "true"
     },
     {
-      "title": "Operationalizing Self-Determination Through a Community REB",
+      "title": "Operationalizing self-determination through a community REB",
       "startTime": "2022-06-15T15:00:00-06:00",
       "endTime": "2022-06-15T15:30:00-06:00",
-      "presenters": "Michelle Kennedy",
-      "abstract": "",
-      "confirmed": "false"
-    },
-    {
-      "title": "Breakout Sessions",
-      "startTime": "2022-06-15T15:15:00-06:00",
-      "endTime": "2022-06-15T16:15:00-06:00",
+      "presenters": "Dr. Susan Manitowabi",
+      "abstract": "OperationalizingSelf-DeterminationAbstract.pdf",
+      "type": "presentation",
       "confirmed": "true"
     },
     {
-      "title": "Closing Remarks",
-      "startTime": "2022-06-15T16:15:00-06:00",
-      "endTime": "2022-06-15T16:45:00-06:00",
+      "title": "Plenary Discussion and Closing",
+      "startTime": "2022-06-15T15:30:00-06:00",
+      "endTime": "2022-06-15T16:30:00-06:00",
+      "type": "bookend",
       "confirmed": "true"
     }
   ]
