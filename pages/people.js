@@ -19,6 +19,7 @@ export default function People({ profiledata }) {
           <Row id="Team" className="mt-4 mb-4">
             <UserList profiledata={profiledata} role="host"></UserList>
           </Row>
+          <h2 className={`${styles["people-label"]}`}>Presenters</h2>
           <Row className="mt-4 mb-4">
             <UserList profiledata={profiledata} role="presenter"></UserList>
           </Row>

@@ -8,18 +8,7 @@ export default class FooterComponent extends Component {
       <footer className={`footer`}>
         <Container className="">
           <Row xs={1} md={2}>
-            <Col>
-              <div className="position-relative sshrc-logo">
-                kikapekiskwewin is supported in part by funding from the Social
-                Sciences and Humanities Research Council
-                <Image
-                  src={"/sshrc-fip-full-black-eng.png"}
-                  layout="fill"
-                  objectFit="contain"
-                  alt="SSHRC Signature"
-                />
-              </div>
-            </Col>
+            
             <Col
               xs={{ order: "first" }}
               md={{ order: "last" }}
@@ -31,8 +20,19 @@ export default class FooterComponent extends Component {
                 </a>
               </h5>
             </Col>
+            <Col>
+              <div className="position-relative sshrc-logo">
+                kikapekiskwewin is supported in part by funding from the Social
+                Sciences and Humanities Research Council and Athabasca University
+                <Image
+                  src={"/sshrc-fip-full-black-eng.png"}
+                  layout="fill"
+                  objectFit="contain"
+                  alt="SSHRC Signature"
+                />
+              </div>
+            </Col>
           </Row>
-
           <Row className="align-items-end w-100">
             <Col className="m-2 " align="center">
               <a
