@@ -64,11 +64,11 @@ export default function Home() {
                 Indigenous research ethics might illuminate decolonial pathways
                 forward.
               </p>
-              <div className={`${styles["abstract-banner"]}`}>
+              {/* <div className={`${styles["abstract-banner"]}`}>
                 <h2>Now accepting abstracts!</h2>
-              </div>
+              </div> */}
               <p>
-                We are accepting abstracts from individual presenters for twenty
+                We accepted abstracts from individual presenters for twenty
                 minute oral presentations on the following themes (these are
                 just ideas):
               </p>
@@ -85,7 +85,7 @@ export default function Home() {
                 <li>Treaties and Indigenous Legal Traditions</li>
               </ul>
               <p>
-                We are accepting abstracts for panel presentations consisting of
+                We accepted abstracts for panel presentations consisting of
                 four to five presenters for hour long presentations on the
                 following themes (these are just ideas):
               </p>
@@ -95,11 +95,11 @@ export default function Home() {
                 <li>Australian Indigenous Research</li>
                 <li>Indigenous Research Ethics in the Global South</li>
               </ul>
-              <p>
+              {/* <p>
                 Please submit an abstract to present your paper and register
                 through Eventbrite to attend.
               </p>
-              <AbstractForm />
+              <AbstractForm /> */}
               <p>
                 The aim of kikapekiskwewin is to inform future research policy
                 and practice that shapes the experiences of Indigenous scholars,

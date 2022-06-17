@@ -61,9 +61,9 @@ class NavComponent extends Component {
                 {/* <Nav.Link className="nav-item" href="/people">
                   <strong>Media</strong>
                 </Nav.Link> */}
-                <Nav.Link className="nav-item" href="/register">
+                {/* <Nav.Link className="nav-item" href="/register">
                   <strong>Register</strong>
-                </Nav.Link>
+                </Nav.Link> */}
               </Nav>
             </Navbar.Collapse>
           </Row>
